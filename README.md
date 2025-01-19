@@ -115,10 +115,6 @@ bun run start
 nodemon run start
 ```
 
-```bash
-bun run start
-```
-
 ## Informasi
 * Pembuat / Pengembang: Dani Technology - Full Stack Engineer
 * Kontak Pembuat / Pengembang: +62 838-3499-4479 or +62 823-2066-7363 (WhatsApp), dani.technology.id@gmail.com (Email)
