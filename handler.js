@@ -1,24 +1,1327 @@
 /**
-* Mau beli script no enc? harga murah bngt, ga sampe 100rb
-* Contact:
-* - WhatsApp: +62 838-3499-4479 or +62 823-2066-7363
-* - Email: dani.technology.id@gmail.com
-*/
-
-/**
 * Made by: Dani Technology (Full Stack Engineer)
-* Created on: August 6, 2024
+* Created on: January 10, 2024
 * Contact developer:
 * - WhatsApp: +62 838-3499-4479 or +62 823-2066-7363
 * - Email: dani.technology.id@gmail.com
 * - GitHub: https://github.com/dani-techno
 */
 
-function _0x53c4(){const _0xc6225d=['bot_offline_status','getHours','automatic_update_profile_status','Group\x20Chat\x20-\x20','byu_pulsa\x0a-\x20','byu','Jumlah\x20saldo\x20anda:\x20Rp\x20','forEach','From:','performance-now','error','application/json','sendPresenceUpdate','xl_pulsa','order','api','Sangat\x20Disayangkan\x20Sekali.\x20Pembayaran\x20Kamu\x20Dibatalkan\x20Oleh\x20Sistem.','`\x0a\x0a','find','toUpperCase','extendedTextMessage','pubg','stickerMessage','conversation','imageMessage','◉\x20Serial\x20Number:\x20','axis_data\x0a-\x20','1298680GMvUet','Tidak\x20ada\x20transaksi\x20yang\x20terkait\x20dengan\x20nomor\x20pengirim\x20ini.','ewallet','target','Produk\x20tidak\x20ditemukan.','/api/h2h/deposit/status','\x0a\x0a*Note:*\x20Pembayaran\x20akan\x20otomatis\x20dibatalkan\x205\x20menit\x20lagi!\x0a\x0a`Bot\x20ini\x20telah\x20terintegrasi\x20dengan\x20API\x20yang\x20disediakan\x20oleh\x20','number','sendMessage','orders.json','en-US','replace','admin','*Nama\x20Produk:*\x20','Transaksi\x20gagal\x20dibuat.\x20Silahkan\x20laporkan\x20masalah\x20ini\x20ke\x20owner\x20bot.','Gagal\x20membatalkan\x20pembayaran\x20dengan\x20ID\x20','Error\x20fetching\x20data:','search_by_code\x20<code>*\x20untuk\x20mencari\x20kode\x20produk.\x0a\x0a`Bot\x20ini\x20telah\x20terintegrasi\x20dengan\x20API\x20yang\x20disediakan\x20oleh\x20','┆•\x20\x20Kode:\x20\x20','get_balance','includes','getFullYear','textMessage','break','data-internet','tsel_pulsa','Transaksi\x20gagal.\x20Silakan\x20laporkan\x20masalah\x20ini\x20ke\x20owner\x20bot.','Terimakasih.','lol','MLW','aov','private','stringify','ml_wdp\x0a-\x20','chat_mode','wdp','9305968kziJEl','\x0aNo\x20DANA:\x20','Semua\x20parameter\x20(code,\x20target)\x20diperlukan.\x0a\x0a*PETUNJUK\x20PENGGUNAAN*\x0a\x0a`Produk\x20game`\x0a-\x20Format\x20order:\x20','keys','data','/api/h2h/price-list/','pln','getMinutes','/api/h2h/deposit/create','/api/h2h/transfer/create','3170898AVZADb','map','path','◉\x20Status:\x20','\x0a•\x20','canceled','xl_data','existsSync','success','\x20HOK250,1223334782\x0a\x0a`Khusus\x20produk\x20game\x20yang\x20memakai\x20Zone\x20ID/Server`\x0a-\x20Format\x20order:\x20','\x20KODE,TUJUAN\x0a-\x20Contoh:\x20','mobile-legends','perf_hooks','getSeconds','Withdraw\x20Saldo','◉\x20Target:\x20','⚠️\x20*Pembayaran\x20Dibatalkan\x20Otomatis*\x20setelah\x205\x20menit\x20tanpa\x20konfirmasi\x20keberhasilan.','ml_tl','Sangat\x20disayangkan\x20sekali.\x20Pembayaran\x20kamu\x20dibatalkan\x20oleh\x20sistem.','3921208dWJuni','readFileSync','secret_key','◉\x20ID\x20Pembayaran:\x20','owner_menu','27dTUEZw','type','New\x20Message:','now','owner_number','*TRANSAKSI\x20BERHASIL\x20DIBUAT*\x0a\x0a*Kode\x20Pembayaran:*\x20','Message:\x20','Bot\x20hanya\x20dapat\x20digunakan\x20di\x20private\x20chat','then','\x20MLW','pubg\x0a\x0a`Data\x20Internet`\x0a-\x20','Perintah\x20tidak\x20valid.','time_zone','byu_pulsa','message','Anda\x20adalah\x20bot.','videoMessage','\x20KODE,ID\x0a-\x20Contoh:\x20','tsel_pulsa\x0a-\x20','axios','26574260RdyPyH','coc','srbc','catch','only_show_command_chat','╰──────────◇\x0a\x0a','post','`Contoh:\x20','pulsa','\x0aReff\x20id:\x20','contactMessage','❌\x20Kamu\x20tidak\x20memiliki\x20izin\x20untuk\x20menggunakan\x20fitur\x20ini.','⬣\x20*Pembelian\x20Berhasil!*\x0a\x0a','Parameter\x20`reffId`\x20diperlukan\x20untuk\x20membatalkan\x20deposit.\x0a\x0a*PETUNJUK\x20PENGGUNAAN*\x0a\x0a','Anda\x20adalah\x20pengguna\x20bot.','tri_pulsa\x0a\x0a`Voucher`\x0a-\x20','match','Saldo\x20tidak\x20cukup!','Pembayaran\x20dengan\x20ID\x20','Error:','\x0aDibuat\x20pada:\x20','DANA','dana','extendexTextMessage','◉\x20Diterima:\x20','reffId','parse','wd_balance\x20<nominal>\x0a','*✅\x20:\x20Tersedia*\x0a*⛔\x20:\x20Tidak\x20Tersedia*\x0a\x0a_Ingin\x20melakukan\x20topup?\x20ketik\x20*','192379aRnmcB','/api/h2h/transaction/create','Gagal\x20membatalkan\x20deposit.\x20Silakan\x20coba\x20lagi\x20atau\x20laporkan\x20masalah\x20ini\x20ke\x20owner\x20bot.','serial_number','\x20ML3,628299715|10135','\x20dibatalkan\x20karena\x20sudah\x20lebih\x20dari\x205\x20menit.','quoted','topup','axis_pulsa\x0a-\x20','`*\x0a\x0a-\x20','./lib/functions.js','Tidak\x20ada\x20transaksi\x20yang\x20terkait\x20dengan\x20kode\x20pembayaran\x20ini.','bold','check_balance','Bot\x20hanya\x20dapat\x20digunakan\x20di\x20group\x20chat','audioMessage','child_process','search','hok\x0a-\x20','pln\x0a\x0aKetik\x20*','deposit','Example:\x20','length','caption','price','created_at','\x0a*Dibuat\x20Pada:*\x20','chalk','toString','\x20WIB,\x20','╭⟬\x20*','split','indosat','/api/h2h/price-list/all','email','Semua\x20parameter\x20(code,\x20target)\x20diperlukan.\x0a\x0aContoh:\x20','check_balance\x0a-\x20','chat','cyanBright','⚠️\x20Pembayaran\x20dengan\x20reffId\x20','reff_id','\x20KODE,ID|SERVER\x0a-\x20Contoh:\x20','name','toLowerCase','self','Anda\x20adalah\x20owner\x20bot.','\x20500.','code','starlight','automatic_typing_or_recording','twilight','┆•\x20\x20Harga:\x20Rp\x20','status','\x0aTarget:\x20','\x0a-\x20','fee','116916wgpmpu','Pembelian\x20sedang\x20di\x20prosess:\x0a\x0aLayanan:\x20','balance','greenBright','tri_data\x0a\x0a`Pulsa\x20Reguler\x20&\x20Transfer`\x0a-\x20','transfer','/api/h2h/transaction/status','pushName','tri','\x0aTotal:\x20Rp\x20','menu_owner','mtype','/api/h2h/transfer/status','tsel_data\x0a-\x20','isat_data\x0a-\x20','games','\x20REFFID`\x0a','Produk\x20yg\x20anda\x20cari\x20tidak\x20ditemukan.','◉\x20ID\x20Transaksi:\x20','key','base_url','list','Reff\x20id:\x20','recording','cancel\x20PAYID*_','order2','/api/h2h/deposit/cancel','./handler.js','aov\x0a-\x20','Anda\x20adalah\x20bot\x20sekaligus\x20owner\x20bot\x20nya.','byu_data\x0a-\x20','whiteBright','ml_wdp','\x20dan\x20payId\x20','MLS','ceil','msg','profit','ml_tl\x0a-\x20','⬣\x20*Pembayaran\x20Berhasil!*\x0a\x0a','`*\x0a\x0a`Game\x20Populer`\x0a-\x20','reply','utf8','tmp','join','Pembelian\x20sedang\x20di\x20proses...','hok','honor-of-kings','total','failed','◉\x20Layanan:\x20','totalfitur','subject','Gagal\x20melakukan\x20transfer.','axis','ml_sl','\x20telah\x20dibatalkan.','createdAt','cancel','Jumlah\x20fitur\x20saat\x20ini:\x20','Ok,\x20Success!','Jumlah\x20minimal:\x20500.','tri_pulsa','locationMessage','telkomsel','./config.js','log','18QQTxyb','isat_data','slice','buy','Time:\x20','\x20S100,082320667363','\x20MLW1,628299715|10135\x0a\x0a`Produk\x20lainnya`\x0a-\x20Format\x20order:\x20','Terjadi\x20kesalahan,\x20silahkan\x20coba\x20lagi\x20nanti.','coc\x0a-\x20','test','composing','yellowBright','getMonth','free-fire','\x0a*Kode\x20Produk:*\x20','group','buy\x20<code,target>\x0a-\x20','\x0aNama:\x20','axis_pulsa','search_by_code','prefix','league-of-legends','In:','cek_saldo','groupMetadata','shift','◉\x20Tanggal:\x20','\x0a\x0aNote:\x20Pembayaran\x20akan\x20otomatis\x20dibatalkan\x205\x20menit\x20lagi!','writeFileSync','toLocaleString','date','getDate','sender','axis_data','\x0a*Nominal:*\x20Rp\x20','remoteJid','Jumlah\x20minimal:\x203000.','nominal','Private\x20Chat','MLT','startsWith','user','2wfGUNJ','\x0aNominal:\x20Rp\x20','participants','lol\x0a-\x20','isGroup','*`Hai\x20','text','depo','qr_image_url','exports','\x0aFee:\x20Rp\x20','mimetype','trim','/api/h2h/get-profile/balance','`Format:\x20','ff\x0a-\x20','QRISFAST','byu_data','isat_pulsa\x0a-\x20','unavailable','xl_pulsa\x0a-\x20'];_0x53c4=function(){return _0xc6225d;};return _0x53c4();}function _0x56d5(_0x111fc4,_0x5691e5){const _0x53c486=_0x53c4();return _0x56d5=function(_0x56d503,_0x98bcb7){_0x56d503=_0x56d503-0x161;let _0x4922b4=_0x53c486[_0x56d503];return _0x4922b4;},_0x56d5(_0x111fc4,_0x5691e5);}const _0x4e4a63=_0x56d5;(function(_0x2cabb0,_0x4b4a45){const _0x431c87=_0x56d5,_0x395e0f=_0x2cabb0();while(!![]){try{const _0xe423bf=-parseInt(_0x431c87(0x1e4))/0x1*(parseInt(_0x431c87(0x289))/0x2)+-parseInt(_0x431c87(0x1b3))/0x3*(-parseInt(_0x431c87(0x21c))/0x4)+-parseInt(_0x431c87(0x16d))/0x5+parseInt(_0x431c87(0x19b))/0x6+-parseInt(_0x431c87(0x191))/0x7+-parseInt(_0x431c87(0x1ae))/0x8*(parseInt(_0x431c87(0x25f))/0x9)+parseInt(_0x431c87(0x1c7))/0xa;if(_0xe423bf===_0x4b4a45)break;else _0x395e0f['push'](_0x395e0f['shift']());}catch(_0x144eda){_0x395e0f['push'](_0x395e0f['shift']());}}}(_0x53c4,0xa7c19));const chalk=require(_0x4e4a63(0x1ff)),fs=require('fs'),util=require('util'),axios=require(_0x4e4a63(0x1c6)),path=require(_0x4e4a63(0x19d)),request=require('request'),mimeType=require('mime-types'),os=require('os'),speed=require(_0x4e4a63(0x2a7)),{performance}=require(_0x4e4a63(0x1a7)),{exec,spawn,execSync}=require(_0x4e4a63(0x1f4)),{imageUploader,generateRandomText,toRupiah}=require(_0x4e4a63(0x1ee)),config=require(_0x4e4a63(0x25d)),prefix=config[_0x4e4a63(0x273)]||'',date=new Date(),currentTime=date[_0x4e4a63(0x29f)]()+':'+(date[_0x4e4a63(0x198)]()<0xa?'0':'')+date['getMinutes']()+':'+(date[_0x4e4a63(0x1a8)]()<0xa?'0':'')+date[_0x4e4a63(0x1a8)]()+_0x4e4a63(0x201)+(date[_0x4e4a63(0x27e)]()<0xa?'0':'')+date[_0x4e4a63(0x27e)]()+'-'+(date[_0x4e4a63(0x26b)]()+0x1<0xa?'0':'')+(date[_0x4e4a63(0x26b)]()+0x1)+'-'+date[_0x4e4a63(0x182)]();module[_0x4e4a63(0x292)]=async(_0x30ce09,_0x30a5cc,_0xbc4783)=>{const _0x1e4f27=_0x4e4a63,_0x4930df=sock=_0x30ce09,_0xb25294=_0x30a5cc,_0x1b39a0=_0xbc4783,_0x86fd14=_0xb25294[_0x1e4f27(0x209)]?_0xb25294[_0x1e4f27(0x209)]:_0xb25294[_0x1e4f27(0x22f)][_0x1e4f27(0x282)],_0x23f83e=_0x30ce09[_0x1e4f27(0x288)]['id']['split'](':')[0x0],_0x5228da=config[_0x1e4f27(0x1b7)],_0x255405=_0xb25294[_0x1e4f27(0x27f)]['replace'](/\D/g,'');let _0x27d287=_0xb25294[_0x1e4f27(0x223)]||'Unknown';_0x255405===_0x23f83e&&(_0x27d287='Me');const _0x394d02=_0xb25294[_0x1e4f27(0x227)]===_0x1e4f27(0x169)?_0xb25294[_0x1e4f27(0x1c1)][_0x1e4f27(0x169)]:_0xb25294[_0x1e4f27(0x227)]===_0x1e4f27(0x166)?_0xb25294[_0x1e4f27(0x1c1)][_0x1e4f27(0x166)][_0x1e4f27(0x28f)]:_0xb25294[_0x1e4f27(0x227)]===_0x1e4f27(0x16a)?_0xb25294[_0x1e4f27(0x1c1)][_0x1e4f27(0x16a)][_0x1e4f27(0x1fb)]:_0xb25294['mtype']===_0x1e4f27(0x1c3)?_0xb25294['message'][_0x1e4f27(0x1c3)][_0x1e4f27(0x1fb)]:'',_0x2781c2=typeof _0xb25294[_0x1e4f27(0x28f)]==='string'?_0xb25294['text']:'',_0x1917dc=_0x394d02[_0x1e4f27(0x287)](config[_0x1e4f27(0x273)])?_0x394d02[_0x1e4f27(0x178)](config['prefix'],'')[_0x1e4f27(0x295)]()['split'](/ +/)[_0x1e4f27(0x278)]()['toLowerCase']():'',_0x15cc58=config[_0x1e4f27(0x273)]?_0x1917dc['replace'](config[_0x1e4f27(0x273)],''):_0x394d02[_0x1e4f27(0x295)]()['split'](/ +/)['shift']()[_0x1e4f27(0x20f)](),_0x3ddd62=_0x394d02[_0x1e4f27(0x295)]()['split'](/ +/)[_0x1e4f27(0x261)](0x1)['join']('\x20'),_0x49cde2=_0x3ddd62[_0x1e4f27(0x203)]('|')['map'](_0x123414=>_0x123414[_0x1e4f27(0x295)]()),_0x5c4abe=_0xb25294[_0x1e4f27(0x1ea)]?_0xb25294[_0x1e4f27(0x1ea)]:_0xb25294,_0x5b4498=_0x5c4abe[_0x1e4f27(0x240)]||_0x5c4abe,_0x178c7a=(_0x5c4abe[_0x1e4f27(0x240)]||_0x5c4abe)[_0x1e4f27(0x294)]||'',_0x3da3ae=_0xb25294[_0x1e4f27(0x1b4)]===_0x1e4f27(0x1de)&&JSON[_0x1e4f27(0x18d)](_0xb25294)[_0x1e4f27(0x181)](_0x1e4f27(0x183)),_0x259f46=_0xb25294['type']===_0x1e4f27(0x166)&&JSON[_0x1e4f27(0x18d)](_0xb25294)[_0x1e4f27(0x181)](_0x1e4f27(0x16a)),_0x177113=_0xb25294[_0x1e4f27(0x1b4)]===_0x1e4f27(0x166)&&JSON[_0x1e4f27(0x18d)](_0xb25294)[_0x1e4f27(0x181)](_0x1e4f27(0x25b)),_0x509d54=_0xb25294[_0x1e4f27(0x1b4)]==='extendedTextMessage'&&JSON[_0x1e4f27(0x18d)](_0xb25294)[_0x1e4f27(0x181)](_0x1e4f27(0x1c3)),_0x252483=_0xb25294['type']===_0x1e4f27(0x166)&&JSON[_0x1e4f27(0x18d)](_0xb25294)[_0x1e4f27(0x181)]('stickerMessage'),_0x38ac64=_0xb25294['type']===_0x1e4f27(0x166)&&JSON[_0x1e4f27(0x18d)](_0xb25294)[_0x1e4f27(0x181)](_0x1e4f27(0x1f3)),_0x527f4d=_0xb25294['type']===_0x1e4f27(0x166)&&JSON[_0x1e4f27(0x18d)](_0xb25294)[_0x1e4f27(0x181)](_0x1e4f27(0x1d1)),_0x444793=_0xb25294[_0x1e4f27(0x1b4)]===_0x1e4f27(0x166)&&JSON[_0x1e4f27(0x18d)](_0xb25294)[_0x1e4f27(0x181)]('documentMessage'),_0xabacf8=/image|video|sticker|audio/[_0x1e4f27(0x268)](_0x178c7a),_0x29d64a=_0xb25294[_0x1e4f27(0x1b4)]=='imageMessage',_0x33e8b8=_0xb25294[_0x1e4f27(0x1b4)]=='videoMessage',_0x1e2578=_0xb25294[_0x1e4f27(0x1b4)]==_0x1e4f27(0x1f3),_0x1b6266=_0xb25294[_0x1e4f27(0x1b4)]==_0x1e4f27(0x183),_0x2a9dde=_0xb25294[_0x1e4f27(0x1b4)]==_0x1e4f27(0x168),_0x2e695a=_0x23f83e===_0x255405,_0x5abf6=_0x5228da===_0x255405,_0x557d2c=_0xb25294[_0x1e4f27(0x28d)];let _0x56dff2,_0x4ba5d1,_0x527ba6,_0x3a95d4;_0x557d2c&&(_0x56dff2=await _0x4930df[_0x1e4f27(0x277)](_0x86fd14),_0x4ba5d1=_0x56dff2[_0x1e4f27(0x250)],_0x527ba6=_0x56dff2['id'],_0x3a95d4=_0x56dff2[_0x1e4f27(0x28b)]['find'](_0x16b722=>_0x16b722['id']===_0xb25294[_0x1e4f27(0x27f)]&&_0x16b722[_0x1e4f27(0x179)]!==null));if(config['chat_mode']===_0x1e4f27(0x18c)){if(_0xb25294){if(_0x557d2c){if(_0x394d02[_0x1e4f27(0x287)](config[_0x1e4f27(0x273)])){_0xb25294['reply'](_0x1e4f27(0x1ba));return;}}}}else{if(config['chat_mode']===_0x1e4f27(0x26e)){if(_0xb25294){if(!_0x557d2c){if(_0x394d02[_0x1e4f27(0x287)](config[_0x1e4f27(0x273)])){_0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1f2));return;}}}}else{if(config[_0x1e4f27(0x18f)]===_0x1e4f27(0x210)){if(!_0xb25294['key']['fromMe']&&!_0x5abf6)return;}}}config[_0x1e4f27(0x29e)]&&_0x4930df[_0x1e4f27(0x2aa)](_0x1e4f27(0x29c),_0x86fd14);config[_0x1e4f27(0x2a0)][0x0]&&_0x4930df['updateProfileStatus'](config[_0x1e4f27(0x2a0)][0x1]);if(_0xb25294[_0x1e4f27(0x1c1)]){if(_0x394d02[_0x1e4f27(0x287)](config[_0x1e4f27(0x273)])){config['automatic_read_messages']&&_0x4930df['readMessages']([_0xb25294['key']]);if(config[_0x1e4f27(0x215)][0x0]){if(config['automatic_typing_or_recording'][0x1]==='typing')_0x4930df[_0x1e4f27(0x2aa)](_0x1e4f27(0x269),_0x86fd14);else config[_0x1e4f27(0x215)][0x1]===_0x1e4f27(0x233)&&_0x4930df[_0x1e4f27(0x2aa)]('recording',_0x86fd14);}}config[_0x1e4f27(0x1cb)]?_0xb25294[_0x1e4f27(0x1c1)]&&_0x394d02[_0x1e4f27(0x287)](config[_0x1e4f27(0x273)])&&console[_0x1e4f27(0x25e)](_0x1e4f27(0x19f)+chalk[_0x1e4f27(0x1f0)](chalk['greenBright'](_0x1e4f27(0x1b5)))+_0x1e4f27(0x21a)+chalk[_0x1e4f27(0x20a)](_0x1e4f27(0x2a6)),chalk['whiteBright'](_0x27d287),chalk[_0x1e4f27(0x26a)]('-\x20'+_0x255405)+'\x0a-\x20'+chalk['cyanBright'](_0x1e4f27(0x275)),chalk[_0x1e4f27(0x23b)](!_0x557d2c?_0x1e4f27(0x285):_0x1e4f27(0x2a1)+chalk[_0x1e4f27(0x26a)](_0x4ba5d1))+_0x1e4f27(0x21a)+chalk[_0x1e4f27(0x20a)](_0x1e4f27(0x263))+chalk[_0x1e4f27(0x23b)](currentTime)+'\x0a-\x20'+chalk[_0x1e4f27(0x20a)](_0x1e4f27(0x1b9))+chalk[_0x1e4f27(0x23b)](_0x394d02||_0xb25294[_0x1e4f27(0x227)])):console[_0x1e4f27(0x25e)]('\x0a•\x20'+chalk[_0x1e4f27(0x1f0)](chalk[_0x1e4f27(0x21f)](_0x1e4f27(0x1b5)))+_0x1e4f27(0x21a)+chalk[_0x1e4f27(0x20a)](_0x1e4f27(0x2a6)),chalk['whiteBright'](_0x27d287),chalk['yellowBright']('-\x20'+_0x255405)+_0x1e4f27(0x21a)+chalk[_0x1e4f27(0x20a)](_0x1e4f27(0x275)),chalk[_0x1e4f27(0x23b)](!_0x557d2c?_0x1e4f27(0x285):_0x1e4f27(0x2a1)+chalk[_0x1e4f27(0x26a)](_0x4ba5d1))+_0x1e4f27(0x21a)+chalk[_0x1e4f27(0x20a)](_0x1e4f27(0x263))+chalk[_0x1e4f27(0x23b)](currentTime)+_0x1e4f27(0x21a)+chalk[_0x1e4f27(0x20a)](_0x1e4f27(0x1b9))+chalk['whiteBright'](_0x394d02||_0xb25294['mtype']));}const _0x3ea1c0=path[_0x1e4f27(0x248)](__dirname,_0x1e4f27(0x247),_0x1e4f27(0x176));setInterval(()=>{const _0x73e2ee=_0x1e4f27;if(fs[_0x73e2ee(0x1a2)](_0x3ea1c0)){const _0x1fe2fd=JSON[_0x73e2ee(0x1e1)](fs[_0x73e2ee(0x1af)](_0x3ea1c0,_0x73e2ee(0x246)));Object[_0x73e2ee(0x194)](_0x1fe2fd)[_0x73e2ee(0x2a5)](_0x2ccdf9=>{const _0xbdaa9=_0x73e2ee,_0x196387=new Date(_0x1fe2fd[_0x2ccdf9][_0xbdaa9(0x255)])['getTime'](),_0x1ead50=Date[_0xbdaa9(0x1b6)]();if(_0x1ead50-_0x196387>0x493e0){const _0x4b02f4=_0x1fe2fd[_0x2ccdf9]['payId'];axios['post'](config[_0xbdaa9(0x161)][_0xbdaa9(0x230)]+'/api/h2h/deposit/cancel',{'id':_0x4b02f4,'api_key':config[_0xbdaa9(0x161)]['secret_key']})[_0xbdaa9(0x1bb)](()=>{const _0x4a266a=_0xbdaa9;delete _0x1fe2fd[_0x2ccdf9],fs['writeFileSync'](_0x3ea1c0,JSON[_0x4a266a(0x18d)](_0x1fe2fd,null,0x2)),console[_0x4a266a(0x25e)](_0x4a266a(0x1d9)+_0x4b02f4+_0x4a266a(0x1e9));})[_0xbdaa9(0x1ca)](_0x54d6b4=>{const _0xed55c9=_0xbdaa9;console['error'](_0xed55c9(0x17c)+_0x4b02f4+':',_0x54d6b4);});}}),fs[_0x73e2ee(0x27b)](_0x3ea1c0,JSON[_0x73e2ee(0x18d)](_0x1fe2fd,null,0x2));}},0x1388);try{switch(_0x15cc58){case _0x1e4f27(0x268):{_0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x258));break;}case _0x1e4f27(0x24f):{const _0x5b948f=(fs[_0x1e4f27(0x1af)](_0x1e4f27(0x237))[_0x1e4f27(0x200)]()[_0x1e4f27(0x1d7)](new RegExp(_0x1e4f27(0x184),'g'))||[])[_0x1e4f27(0x1fa)]-0x1;_0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x257)+_0x5b948f);break;}case'whoami':{if(!(_0x5abf6||_0x2e695a))return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1d5));if(_0x5abf6)_0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x211));else _0x2e695a?_0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1c2)):_0xb25294['reply'](_0x1e4f27(0x239));break;}case _0x1e4f27(0x1b2):case _0x1e4f27(0x226):{if(!(_0x5abf6||_0x2e695a))return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1d2));const _0x2e27de=_0x1e4f27(0x28e)+_0x27d287+_0x1e4f27(0x1ed)+prefix+_0x1e4f27(0x26f)+prefix+_0x1e4f27(0x208)+prefix+_0x1e4f27(0x1e2);_0xb25294[_0x1e4f27(0x245)](_0x2e27de);break;}case'menu':case _0x1e4f27(0x231):{const _0x53e12d=_0x1e4f27(0x28e)+_0x27d287+_0x1e4f27(0x244)+prefix+'mlbb\x0a-\x20'+prefix+_0x1e4f27(0x18e)+prefix+'ml_sl\x0a-\x20'+prefix+_0x1e4f27(0x242)+prefix+_0x1e4f27(0x1f6)+prefix+_0x1e4f27(0x238)+prefix+_0x1e4f27(0x28c)+prefix+_0x1e4f27(0x267)+prefix+_0x1e4f27(0x298)+prefix+_0x1e4f27(0x1bd)+prefix+_0x1e4f27(0x23a)+prefix+_0x1e4f27(0x229)+prefix+'xl_data\x0a-\x20'+prefix+_0x1e4f27(0x16c)+prefix+_0x1e4f27(0x22a)+prefix+_0x1e4f27(0x220)+prefix+_0x1e4f27(0x2a2)+prefix+_0x1e4f27(0x1c5)+prefix+_0x1e4f27(0x29d)+prefix+_0x1e4f27(0x1ec)+prefix+_0x1e4f27(0x29b)+prefix+_0x1e4f27(0x1d6)+prefix+_0x1e4f27(0x1f7)+prefix+'search\x20<name>*\x20atau\x20*'+prefix+_0x1e4f27(0x17e)+config[_0x1e4f27(0x161)][_0x1e4f27(0x230)]+'`\x0a';_0xb25294['reply'](_0x53e12d);break;}case'sr':case _0x1e4f27(0x1f5):{if(!_0x3ddd62)return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1f9)+prefix+_0x15cc58+_0x1e4f27(0x1bc));try{const _0x587150=_0x3ddd62,_0x1707b0=await axios[_0x1e4f27(0x1cd)](config[_0x1e4f27(0x161)][_0x1e4f27(0x230)]+_0x1e4f27(0x205),{'filter_name':_0x587150,'api_key':config['api'][_0x1e4f27(0x1b0)]},{'headers':{'Content-Type':_0x1e4f27(0x2a9)}}),_0x5756ab=_0x1707b0[_0x1e4f27(0x195)];if(!_0x5756ab[_0x1e4f27(0x195)])return _0xb25294[_0x1e4f27(0x245)](_0x5756ab[_0x1e4f27(0x1c1)]);let _0x147d2e='';_0x5756ab[_0x1e4f27(0x195)][_0x1e4f27(0x2a5)](_0x4cd681=>{const _0x2c2c58=_0x1e4f27,_0x54b9f0=config[_0x2c2c58(0x161)][_0x2c2c58(0x241)]/0x64*_0x4cd681['price'],_0x3e80a0=Number(_0x4cd681[_0x2c2c58(0x1fc)])+Number(Math[_0x2c2c58(0x23f)](_0x54b9f0));_0x147d2e+=_0x2c2c58(0x202)+_0x4cd681[_0x2c2c58(0x218)]+'\x20'+_0x4cd681['name']+'*\x0a'+(_0x2c2c58(0x217)+toRupiah(_0x3e80a0)+'\x0a')+(_0x2c2c58(0x17f)+_0x4cd681['code']+'\x0a')+_0x2c2c58(0x1cc);}),_0xb25294[_0x1e4f27(0x245)](_0x147d2e);}catch(_0x4eec80){console[_0x1e4f27(0x2a8)](_0x1e4f27(0x17d),_0x4eec80),_0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x22d));}break;}case _0x1e4f27(0x1c9):case _0x1e4f27(0x272):{if(!_0x3ddd62)return _0xb25294['reply'](_0x1e4f27(0x1f9)+prefix+_0x15cc58+_0x1e4f27(0x1bc));try{const _0x21cac9=_0x3ddd62[_0x1e4f27(0x165)](),_0x18b3b9=await axios[_0x1e4f27(0x1cd)](config[_0x1e4f27(0x161)]['base_url']+'/api/h2h/price-list/all',{'filter_code':_0x21cac9,'api_key':config['api'][_0x1e4f27(0x1b0)]},{'headers':{'Content-Type':_0x1e4f27(0x2a9)}}),_0x299c5e=_0x18b3b9[_0x1e4f27(0x195)];if(!_0x299c5e[_0x1e4f27(0x195)])return _0xb25294[_0x1e4f27(0x245)](_0x299c5e[_0x1e4f27(0x1c1)]);let _0x44fadc='';_0x299c5e['data'][_0x1e4f27(0x2a5)](_0x11cb5c=>{const _0xa9e178=_0x1e4f27,_0x5cbba9=config[_0xa9e178(0x161)][_0xa9e178(0x241)]/0x64*_0x11cb5c[_0xa9e178(0x1fc)],_0x1d60ca=Number(_0x11cb5c[_0xa9e178(0x1fc)])+Number(Math['ceil'](_0x5cbba9));_0x44fadc+=_0xa9e178(0x202)+_0x11cb5c['status']+'\x20'+_0x11cb5c[_0xa9e178(0x20e)]+'*\x0a'+(_0xa9e178(0x217)+toRupiah(_0x1d60ca)+'\x0a')+(_0xa9e178(0x17f)+_0x11cb5c[_0xa9e178(0x213)]+'\x0a')+'╰──────────◇\x0a\x0a';}),_0xb25294['reply'](_0x44fadc);}catch(_0x4dda5d){console['error'](_0x1e4f27(0x17d),_0x4dda5d),_0xb25294['reply'](_0x1e4f27(0x22d));}break;}case'ml':case _0x1e4f27(0x23c):case _0x1e4f27(0x253):case _0x1e4f27(0x1ac):case _0x1e4f27(0x190):case _0x1e4f27(0x214):case _0x1e4f27(0x216):case _0x1e4f27(0x24a):case _0x1e4f27(0x18b):case _0x1e4f27(0x189):case _0x1e4f27(0x1c8):case'ff':case _0x1e4f27(0x167):case _0x1e4f27(0x29a):case'tsel_data':case _0x1e4f27(0x1a1):case _0x1e4f27(0x280):case _0x1e4f27(0x260):case'tri_data':case _0x1e4f27(0x1c0):case _0x1e4f27(0x186):case _0x1e4f27(0x2ab):case _0x1e4f27(0x271):case'isat_pulsa':case _0x1e4f27(0x25a):case _0x1e4f27(0x197):{const _0x204865={'ml':{'name':'mobile-legends','category':_0x1e4f27(0x22b),'filter_code':null},'mlbb':{'name':_0x1e4f27(0x1a6),'category':'games','filter_code':null},'ml_wdp':{'name':_0x1e4f27(0x1a6),'category':_0x1e4f27(0x22b),'filter_code':_0x1e4f27(0x18a)},'ml_sl':{'name':_0x1e4f27(0x1a6),'category':_0x1e4f27(0x22b),'filter_code':_0x1e4f27(0x23e)},'ml_tl':{'name':_0x1e4f27(0x1a6),'category':_0x1e4f27(0x22b),'filter_code':_0x1e4f27(0x286)},'wdp':{'name':_0x1e4f27(0x1a6),'category':_0x1e4f27(0x22b),'filter_code':_0x1e4f27(0x18a)},'starlight':{'name':_0x1e4f27(0x1a6),'category':_0x1e4f27(0x22b),'filter_code':_0x1e4f27(0x23e)},'twilight':{'name':'mobile-legends','category':_0x1e4f27(0x22b),'filter_code':_0x1e4f27(0x286)},'hok':{'name':_0x1e4f27(0x24b),'category':_0x1e4f27(0x22b),'filter_code':null},'aov':{'name':'arena-of-valor','category':_0x1e4f27(0x22b),'filter_code':null},'lol':{'name':_0x1e4f27(0x274),'category':_0x1e4f27(0x22b),'filter_code':null},'coc':{'name':'clash-of-clans','category':_0x1e4f27(0x22b),'filter_code':null},'ff':{'name':_0x1e4f27(0x26c),'category':'games','filter_code':null},'pubg':{'name':_0x1e4f27(0x167),'category':_0x1e4f27(0x22b),'filter_code':null},'byu_data':{'name':_0x1e4f27(0x2a3),'category':_0x1e4f27(0x185),'filter_code':null},'telkomsel_data':{'name':_0x1e4f27(0x25c),'category':'data-internet','filter_code':null},'tsel_data':{'name':_0x1e4f27(0x25c),'category':_0x1e4f27(0x185),'filter_code':null},'xl_data':{'name':'xl','category':_0x1e4f27(0x185),'filter_code':null},'axis_data':{'name':_0x1e4f27(0x252),'category':_0x1e4f27(0x185),'filter_code':null},'indosat_data':{'name':_0x1e4f27(0x204),'category':'data-internet','filter_code':null},'isat_data':{'name':_0x1e4f27(0x204),'category':_0x1e4f27(0x185),'filter_code':null},'tri_data':{'name':_0x1e4f27(0x224),'category':_0x1e4f27(0x185),'filter_code':null},'byu_pulsa':{'name':'byu','category':_0x1e4f27(0x1cf),'filter_code':null},'telkomsel_pulsa':{'name':_0x1e4f27(0x25c),'category':_0x1e4f27(0x1cf),'filter_code':null},'tsel_pulsa':{'name':_0x1e4f27(0x25c),'category':_0x1e4f27(0x1cf),'filter_code':null},'xl_pulsa':{'name':'xl','category':_0x1e4f27(0x1cf),'filter_code':null},'axis_pulsa':{'name':'axis','category':_0x1e4f27(0x1cf),'filter_code':null},'indosat_pulsa':{'name':_0x1e4f27(0x204),'category':_0x1e4f27(0x1cf),'filter_code':null},'isat_pulsa':{'name':_0x1e4f27(0x204),'category':'pulsa','filter_code':null},'tri_pulsa':{'name':_0x1e4f27(0x224),'category':_0x1e4f27(0x1cf),'filter_code':null},'pln':{'name':_0x1e4f27(0x197),'category':'voucher','filter_code':null}},_0x572bc4=_0x204865[_0x15cc58];if(!_0x572bc4)return _0xb25294['reply'](_0x1e4f27(0x1be));try{const _0x33c2d3=await axios[_0x1e4f27(0x1cd)](config[_0x1e4f27(0x161)][_0x1e4f27(0x230)]+_0x1e4f27(0x196)+_0x572bc4['category']+'/'+_0x572bc4[_0x1e4f27(0x20e)],{'filter_code':_0x572bc4['filter_code']||undefined,'api_key':config[_0x1e4f27(0x161)][_0x1e4f27(0x1b0)]},{'headers':{'Content-Type':_0x1e4f27(0x2a9)}}),_0x5dac43=_0x33c2d3[_0x1e4f27(0x195)];if(!_0x5dac43[_0x1e4f27(0x195)])return _0xb25294[_0x1e4f27(0x245)](_0x5dac43[_0x1e4f27(0x1c1)]);let _0x2a76df=_0x1e4f27(0x1e3)+prefix+'order\x20KODE,TUJUAN*_\x0a\x0a`Bot\x20ini\x20telah\x20terintegrasi\x20dengan\x20API\x20yang\x20disediakan\x20oleh\x20'+config[_0x1e4f27(0x161)][_0x1e4f27(0x230)]+_0x1e4f27(0x163);_0x5dac43[_0x1e4f27(0x195)][_0x1e4f27(0x2a5)](_0x39908c=>{const _0x44e082=_0x1e4f27,_0x39ab40=config[_0x44e082(0x161)][_0x44e082(0x241)]/0x64*_0x39908c[_0x44e082(0x1fc)],_0x27c461=Number(_0x39908c[_0x44e082(0x1fc)])+Number(Math['ceil'](_0x39ab40));_0x2a76df+='╭⟬\x20*'+_0x39908c[_0x44e082(0x218)]+'\x20'+_0x39908c[_0x44e082(0x20e)]+'*\x0a'+(_0x44e082(0x217)+toRupiah(_0x27c461)+'\x0a')+('┆•\x20\x20Kode:\x20\x20'+_0x39908c[_0x44e082(0x213)]+'\x0a')+'╰──────────◇\x0a\x0a';}),_0xb25294[_0x1e4f27(0x245)](_0x2a76df);}catch(_0x4af179){console['error'](_0x1e4f27(0x17d),_0x4af179),_0xb25294['reply']('Terjadi\x20kesalahan,\x20silahkan\x20coba\x20lagi\x20nanti.');}break;}case _0x1e4f27(0x2ac):case _0x1e4f27(0x1eb):{const _0x3daf9e=_0x3ddd62['split'](',')[_0x1e4f27(0x19c)](_0x273931=>_0x273931[_0x1e4f27(0x295)]()),[_0x5c2b5c,..._0x224d24]=_0x3daf9e,_0x16648a=_0x224d24['join']('|');if(!_0x5c2b5c||!_0x16648a)return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x193)+prefix+_0x15cc58+_0x1e4f27(0x1c4)+prefix+_0x15cc58+_0x1e4f27(0x1a4)+prefix+_0x15cc58+_0x1e4f27(0x20d)+prefix+_0x15cc58+_0x1e4f27(0x265)+prefix+_0x15cc58+_0x1e4f27(0x1a5)+prefix+_0x15cc58+_0x1e4f27(0x264));const _0x2c5402=generateRandomText(0xa),_0xb24d2=_0xb25294[_0x1e4f27(0x27f)][_0x1e4f27(0x203)]('@')[0x0],_0x112ece=path['join'](__dirname,_0x1e4f27(0x247),_0x1e4f27(0x176));let _0x5a2971={};fs[_0x1e4f27(0x1a2)](_0x112ece)&&(_0x5a2971=JSON[_0x1e4f27(0x1e1)](fs['readFileSync'](_0x112ece,_0x1e4f27(0x246))));if(_0x5a2971[_0xb24d2])return _0xb25294[_0x1e4f27(0x245)]('Kamu\x20masih\x20memiliki\x20transaksi\x20yang\x20belum\x20selesai.\x20Tunggu\x20hingga\x20pembayaran\x20selesai,\x20kadaluarsa,\x20atau\x20gagal\x20untuk\x20membuat\x20transaksi\x20baru.\x0a\x0a_Ingin\x20membatalkan\x20topup?\x20ketik\x20*'+prefix+_0x1e4f27(0x234));const _0x2ecdeb=new Date(),_0x797837=new Date(_0x2ecdeb[_0x1e4f27(0x27c)](_0x1e4f27(0x177),{'timeZone':config[_0x1e4f27(0x1bf)]}));axios[_0x1e4f27(0x1cd)](config['api'][_0x1e4f27(0x230)]+_0x1e4f27(0x205),{'api_key':config[_0x1e4f27(0x161)][_0x1e4f27(0x1b0)]})[_0x1e4f27(0x1bb)](_0x4befd7=>{const _0x112eb3=_0x1e4f27,_0x5b499b=_0x4befd7[_0x112eb3(0x195)];if(!_0x5b499b['data'])return _0xb25294[_0x112eb3(0x245)](_0x5b499b[_0x112eb3(0x1c1)]);const _0x219109=_0x5b499b['data'][_0x112eb3(0x164)](_0x4a82bc=>_0x4a82bc[_0x112eb3(0x213)]===_0x5c2b5c[_0x112eb3(0x165)]());if(!_0x219109)return _0xb25294['reply'](_0x112eb3(0x171));const _0x479e78=config[_0x112eb3(0x161)]['profit']/0x64*_0x219109[_0x112eb3(0x1fc)],_0x1014f8=Number(_0x219109[_0x112eb3(0x1fc)])+Math['ceil'](_0x479e78),_0x292928=_0x112eb3(0x17a)+_0x219109['name']+_0x112eb3(0x26d)+_0x219109[_0x112eb3(0x213)];_0x497f57(_0x2c5402,_0x292928,_0x1014f8,_0x5c2b5c,_0x16648a);})[_0x1e4f27(0x1ca)](_0x1e43e8=>{const _0x4d15f9=_0x1e4f27;_0xb25294['reply'](_0x4d15f9(0x17b)),console[_0x4d15f9(0x2a8)](_0x4d15f9(0x1da),_0x1e43e8);});function _0x497f57(_0x2bdb2a,_0x1de096,_0x25f470,_0x5225c0,_0x40df60){const _0x53a449=_0x1e4f27;axios[_0x53a449(0x1cd)](config[_0x53a449(0x161)][_0x53a449(0x230)]+_0x53a449(0x199),{'reff_id':_0x2bdb2a,'type':_0x53a449(0x16f),'method':_0x53a449(0x299),'nominal':_0x25f470,'api_key':config[_0x53a449(0x161)]['secret_key']})[_0x53a449(0x1bb)](_0x11d424=>{const _0x1b177a=_0x53a449,_0x46a17b=_0x11d424[_0x1b177a(0x195)];if(!_0x46a17b[_0x1b177a(0x195)])return _0xb25294['reply'](_0x46a17b[_0x1b177a(0x1c1)]);_0x5a2971[_0xb24d2]={'reffId':_0x2bdb2a,'payId':_0x46a17b['data']['id'],'createdAt':_0x46a17b['data'][_0x1b177a(0x1fd)]},fs[_0x1b177a(0x27b)](_0x112ece,JSON[_0x1b177a(0x18d)](_0x5a2971,null,0x2));const _0x3e202f=_0x1b177a(0x1b8)+_0x46a17b['data']['reff_id']+'\x0a*Nominal:*\x20Rp\x20'+toRupiah(_0x46a17b[_0x1b177a(0x195)][_0x1b177a(0x284)])+'\x0a'+_0x1de096+_0x1b177a(0x1fe)+_0x46a17b[_0x1b177a(0x195)][_0x1b177a(0x1fd)]+_0x1b177a(0x173)+config['api'][_0x1b177a(0x230)]+'`';_0x4930df[_0x1b177a(0x175)](_0x86fd14,{'image':{'url':_0x46a17b[_0x1b177a(0x195)][_0x1b177a(0x291)]},'caption':_0x3e202f},{'quoted':_0xb25294}),_0x316088(_0x46a17b[_0x1b177a(0x195)]['id'],_0x2bdb2a,_0x5225c0,_0x40df60);})[_0x53a449(0x1ca)](_0x24d9af=>console['error'](_0x53a449(0x1da),_0x24d9af));}function _0x316088(_0x5cc9d4,_0x2fcbd7,_0x4985cc,_0x203f25){const _0x5b9d5e=setTimeout(()=>{const _0x58b9be=_0x56d5;clearInterval(_0xb6f922),axios[_0x58b9be(0x1cd)](config[_0x58b9be(0x161)][_0x58b9be(0x230)]+_0x58b9be(0x236),{'id':_0x5cc9d4,'api_key':config[_0x58b9be(0x161)][_0x58b9be(0x1b0)]})[_0x58b9be(0x1bb)](()=>{const _0x2fd4af=_0x58b9be;delete _0x5a2971[_0xb24d2],fs['writeFileSync'](_0x112ece,JSON[_0x2fd4af(0x18d)](_0x5a2971,null,0x2)),_0xb25294[_0x2fd4af(0x245)](_0x2fd4af(0x1ab));});},0x493e0),_0xb6f922=setInterval(()=>{const _0x258e47=_0x56d5;axios['post'](config[_0x258e47(0x161)][_0x258e47(0x230)]+_0x258e47(0x172),{'id':_0x5cc9d4,'api_key':config['api']['secret_key']})[_0x258e47(0x1bb)](_0x255bf6=>{const _0x265730=_0x258e47,_0x237b70=_0x255bf6[_0x265730(0x195)][_0x265730(0x195)];if(_0x237b70[_0x265730(0x218)]===_0x265730(0x1a3)||_0x237b70[_0x265730(0x218)]===_0x265730(0x24d)){clearInterval(_0xb6f922),clearTimeout(_0x5b9d5e),delete _0x5a2971[_0xb24d2],fs[_0x265730(0x27b)](_0x112ece,JSON[_0x265730(0x18d)](_0x5a2971,null,0x2));if(_0x237b70[_0x265730(0x218)]===_0x265730(0x1a3))_0x3e3a8c(_0x2fcbd7,_0x4985cc,_0x203f25),_0xb25294[_0x265730(0x245)](_0x265730(0x243)+(_0x265730(0x1b1)+_0x237b70[_0x265730(0x20c)]+'\x0a')+(_0x265730(0x19e)+_0x237b70['status']+'\x0a')+(_0x265730(0x1df)+toRupiah(_0x237b70[_0x265730(0x180)])+'\x0a')+(_0x265730(0x279)+_0x237b70[_0x265730(0x1fd)]+'\x0a\x0a')+_0x265730(0x188));else{if(_0x237b70['status']==='failed'||_0x237b70[_0x265730(0x218)]===_0x265730(0x256)||_0x237b70['status'][_0x265730(0x1a0)])return _0xb25294['reply']('Sangat\x20disayangkan\x20sekali.\x20Pembayaran\x20kamu\x20dibatalkan\x20oleh\x20sistem.');}}});},0x1388);}function _0x3e3a8c(_0x1f472d,_0x2ce9f8,_0x32032e){const _0x46cd6f=_0x1e4f27;axios[_0x46cd6f(0x1cd)](config[_0x46cd6f(0x161)][_0x46cd6f(0x230)]+_0x46cd6f(0x1e5),{'reff_id':_0x1f472d,'product_code':_0x2ce9f8['toUpperCase'](),'target':_0x32032e,'api_key':config[_0x46cd6f(0x161)][_0x46cd6f(0x1b0)]})[_0x46cd6f(0x1bb)](_0x596202=>{const _0x5a7bf6=_0x46cd6f,_0x51f8d3=_0x596202[_0x5a7bf6(0x195)];if(!_0x51f8d3[_0x5a7bf6(0x195)])return _0xb25294['reply'](_0x51f8d3['message']);const _0x40dc6b='Pembelian\x20sedang\x20di\x20proses...';_0x4930df[_0x5a7bf6(0x175)](_0x86fd14,{'text':_0x40dc6b},{'quoted':_0xb25294}),_0x319aa3(_0x51f8d3[_0x5a7bf6(0x195)]['id']);})['catch'](_0x236953=>console[_0x46cd6f(0x2a8)](_0x46cd6f(0x1da),_0x236953));}function _0x319aa3(_0x3e8e22){const _0x1eabd7=setInterval(()=>{const _0x48a5f0=_0x56d5;axios[_0x48a5f0(0x1cd)](config['api'][_0x48a5f0(0x230)]+_0x48a5f0(0x222),{'id':_0x3e8e22,'api_key':config[_0x48a5f0(0x161)][_0x48a5f0(0x1b0)]})[_0x48a5f0(0x1bb)](_0x524dbc=>{const _0x632899=_0x48a5f0,_0x28e6e9=_0x524dbc[_0x632899(0x195)][_0x632899(0x195)];if(_0x28e6e9[_0x632899(0x218)]===_0x632899(0x1a3)){clearInterval(_0x1eabd7);const _0x5e6274=_0x632899(0x1d3)+(_0x632899(0x22e)+_0x28e6e9[_0x632899(0x20c)]+'\x0a')+(_0x632899(0x19e)+_0x28e6e9[_0x632899(0x218)]+'\x0a')+(_0x632899(0x24e)+_0x28e6e9[_0x632899(0x20e)]+'\x0a')+(_0x632899(0x1aa)+_0x28e6e9[_0x632899(0x170)]+'\x0a')+(_0x632899(0x16b)+_0x28e6e9['serial_number']+'\x0a')+(_0x632899(0x279)+_0x28e6e9[_0x632899(0x27d)]+'\x0a\x0a')+_0x632899(0x188);_0x4930df[_0x632899(0x175)](_0x86fd14,{'text':_0x5e6274},{'quoted':_0xb25294});}else _0x28e6e9['status']===_0x632899(0x24d)&&(clearInterval(_0x1eabd7),_0xb25294[_0x632899(0x245)]('Transaksi\x20gagal.\x20Silakan\x20laporkan\x20masalah\x20ini\x20ke\x20owner\x20bot.'));});},0x1388);}break;}case _0x1e4f27(0x235):case'topup2':{const _0x5de1fd=_0x3ddd62[_0x1e4f27(0x203)](',')[_0x1e4f27(0x19c)](_0x1926d8=>_0x1926d8[_0x1e4f27(0x295)]()),[_0x5d573e,..._0x39cbbb]=_0x5de1fd,_0x5a89fb=_0x39cbbb[_0x1e4f27(0x248)]('|');if(!_0x5d573e||!_0x5a89fb)return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x193)+prefix+_0x15cc58+'\x20KODE,ID\x0a-\x20Contoh:\x20'+prefix+_0x15cc58+'\x20HOK250,1223334782\x0a\x0a`Khusus\x20produk\x20game\x20yang\x20memakai\x20Zone\x20ID/Server`\x0a-\x20Format\x20order:\x20'+prefix+_0x15cc58+_0x1e4f27(0x20d)+prefix+_0x15cc58+_0x1e4f27(0x265)+prefix+_0x15cc58+_0x1e4f27(0x1a5)+prefix+_0x15cc58+_0x1e4f27(0x264));const _0x4ab0e3=generateRandomText(0xa);axios[_0x1e4f27(0x1cd)](config['api'][_0x1e4f27(0x230)]+'/api/h2h/price-list/all',{'api_key':config[_0x1e4f27(0x161)][_0x1e4f27(0x1b0)]})[_0x1e4f27(0x1bb)](_0x288672=>{const _0x13a84c=_0x1e4f27,_0x2c71ca=_0x288672[_0x13a84c(0x195)];if(!_0x2c71ca[_0x13a84c(0x195)])return _0xb25294[_0x13a84c(0x245)](_0x2c71ca[_0x13a84c(0x1c1)]);const _0x4808c3=_0x2c71ca[_0x13a84c(0x195)][_0x13a84c(0x164)](_0x19df06=>_0x19df06[_0x13a84c(0x213)]===_0x5d573e[_0x13a84c(0x165)]());if(!_0x4808c3)return _0xb25294['reply'](_0x13a84c(0x171));const _0x1b03ff=config[_0x13a84c(0x161)][_0x13a84c(0x241)]/0x64*_0x4808c3['price'],_0x4e7787=Number(_0x4808c3[_0x13a84c(0x1fc)])+Math[_0x13a84c(0x23f)](_0x1b03ff),_0x310165=_0x13a84c(0x17a)+_0x4808c3[_0x13a84c(0x20e)]+_0x13a84c(0x26d)+_0x4808c3[_0x13a84c(0x213)];_0x27299b(_0x4ab0e3,_0x310165,_0x4e7787,_0x5d573e,_0x5a89fb);})[_0x1e4f27(0x1ca)](_0x2de292=>{const _0x592c25=_0x1e4f27;_0xb25294[_0x592c25(0x245)]('Transaksi\x20gagal\x20dibuat.\x20Silahkan\x20laporkan\x20masalah\x20ini\x20ke\x20owner\x20bot.'),console[_0x592c25(0x2a8)](_0x592c25(0x1da),_0x2de292);});function _0x27299b(_0x4dbce5,_0x2e7510,_0x1c07a6,_0x39cb7b,_0xa79bc4){const _0x29d6d5=_0x1e4f27;axios[_0x29d6d5(0x1cd)](config[_0x29d6d5(0x161)]['base_url']+_0x29d6d5(0x199),{'reff_id':_0x4dbce5,'type':_0x29d6d5(0x16f),'method':_0x29d6d5(0x299),'nominal':_0x1c07a6,'api_key':config[_0x29d6d5(0x161)]['secret_key']})[_0x29d6d5(0x1bb)](_0x1e8032=>{const _0x933808=_0x29d6d5,_0x12355d=_0x1e8032[_0x933808(0x195)];if(!_0x12355d[_0x933808(0x195)])return _0xb25294[_0x933808(0x245)](_0x12355d[_0x933808(0x1c1)]);const _0x55742f=_0x933808(0x1b8)+_0x12355d[_0x933808(0x195)][_0x933808(0x20c)]+_0x933808(0x281)+toRupiah(_0x12355d[_0x933808(0x195)][_0x933808(0x284)])+'\x0a'+_0x2e7510+'\x0a*Dibuat\x20Pada:*\x20'+_0x12355d['data']['created_at']+'\x0a\x0a*Note:*\x20Pembayaran\x20akan\x20otomatis\x20dibatalkan\x205\x20menit\x20lagi!\x0a\x0a`Bot\x20ini\x20telah\x20terintegrasi\x20dengan\x20API\x20yang\x20disediakan\x20oleh\x20'+config[_0x933808(0x161)][_0x933808(0x230)]+'`';_0x4930df[_0x933808(0x175)](_0x86fd14,{'image':{'url':_0x12355d[_0x933808(0x195)][_0x933808(0x291)]},'caption':_0x55742f},{'quoted':_0xb25294})[_0x933808(0x1bb)](_0x2d8350=>{const _0x546c4c=_0x2d8350['key']['id'];_0x456013(_0x12355d['data']['id'],_0x546c4c,_0x4dbce5,_0x39cb7b,_0xa79bc4),setTimeout(()=>{_0x4930df['sendMessage'](_0x86fd14,{'delete':{'remoteJid':_0x86fd14,'fromMe':!![],'id':_0x546c4c}});},0x493e0);});})['catch'](_0x3e0c3e=>console[_0x29d6d5(0x2a8)](_0x29d6d5(0x1da),_0x3e0c3e));}function _0x456013(_0x1fa7d0,_0x35f082,_0x225187,_0x3c53e2,_0x1ed5b9){const _0x377948=setInterval(()=>{const _0xce7072=_0x56d5;axios['post'](config['api'][_0xce7072(0x230)]+'/api/h2h/deposit/status',{'id':_0x1fa7d0,'api_key':config[_0xce7072(0x161)]['secret_key']})[_0xce7072(0x1bb)](_0x2dcb8b=>{const _0x5026e8=_0xce7072,_0x2c251c=_0x2dcb8b['data'][_0x5026e8(0x195)];if(_0x2c251c[_0x5026e8(0x218)]===_0x5026e8(0x1a3))clearInterval(_0x377948),clearTimeout(_0xebe66),_0x5ef224(_0x225187,_0x3c53e2,_0x1ed5b9),_0xb25294[_0x5026e8(0x245)](_0x5026e8(0x243)+('◉\x20ID\x20Pembayaran:\x20'+_0x2c251c[_0x5026e8(0x20c)]+'\x0a')+(_0x5026e8(0x19e)+_0x2c251c[_0x5026e8(0x218)]+'\x0a')+(_0x5026e8(0x1df)+toRupiah(_0x2c251c[_0x5026e8(0x180)])+'\x0a')+('◉\x20Tanggal:\x20'+_0x2c251c[_0x5026e8(0x1fd)]+'\x0a\x0a')+'Terimakasih.'),_0x4930df[_0x5026e8(0x175)](_0x86fd14,{'delete':{'remoteJid':_0x86fd14,'fromMe':!![],'id':_0x35f082}});else _0x2c251c[_0x5026e8(0x218)]===_0x5026e8(0x24d)&&(clearInterval(_0x377948),_0xb25294['reply'](_0x5026e8(0x1ad)));});},0x1388),_0xebe66=setTimeout(()=>{const _0x1b6e7b=_0x56d5;clearInterval(_0x377948),axios[_0x1b6e7b(0x1cd)](config['api'][_0x1b6e7b(0x230)]+_0x1b6e7b(0x236),{'id':_0x1fa7d0,'api_key':config['api'][_0x1b6e7b(0x1b0)]})['then'](_0x112085=>{const _0x5d0723=_0x1b6e7b,_0x4866e7=_0x112085['data'];if(!_0x4866e7[_0x5d0723(0x195)])return _0xb25294[_0x5d0723(0x245)](_0x4866e7['message']);_0xb25294[_0x5d0723(0x245)](_0x5d0723(0x1ab));});},0x493e0);}function _0x5ef224(_0x1375ea,_0x36ca7a,_0x1d61e1){const _0x455c08=_0x1e4f27;axios[_0x455c08(0x1cd)](config['api']['base_url']+_0x455c08(0x1e5),{'reff_id':_0x1375ea,'product_code':_0x36ca7a[_0x455c08(0x165)](),'target':_0x1d61e1,'api_key':config['api'][_0x455c08(0x1b0)]})['then'](_0x3a7421=>{const _0x1d67f2=_0x455c08,_0x479b0c=_0x3a7421[_0x1d67f2(0x195)];if(!_0x479b0c['data'])return _0xb25294[_0x1d67f2(0x245)](_0x479b0c['message']);const _0x46f152=_0x1d67f2(0x249);_0x4930df[_0x1d67f2(0x175)](_0x86fd14,{'text':_0x46f152},{'quoted':_0xb25294}),_0x4b9c2e(_0x479b0c[_0x1d67f2(0x195)]['id']);})[_0x455c08(0x1ca)](_0x40e22d=>console[_0x455c08(0x2a8)](_0x455c08(0x1da),_0x40e22d));}function _0x4b9c2e(_0x248b71){const _0x41e05=setInterval(()=>{const _0x52ec6f=_0x56d5;axios[_0x52ec6f(0x1cd)](config[_0x52ec6f(0x161)][_0x52ec6f(0x230)]+'/api/h2h/transaction/status',{'id':_0x248b71,'api_key':config[_0x52ec6f(0x161)][_0x52ec6f(0x1b0)]})[_0x52ec6f(0x1bb)](_0x1a598f=>{const _0x397ac6=_0x52ec6f,_0x37c932=_0x1a598f[_0x397ac6(0x195)][_0x397ac6(0x195)];if(_0x37c932[_0x397ac6(0x218)]===_0x397ac6(0x1a3)){clearInterval(_0x41e05);const _0x456c0a=_0x397ac6(0x1d3)+('◉\x20ID\x20Transaksi:\x20'+_0x37c932[_0x397ac6(0x20c)]+'\x0a')+('◉\x20Status:\x20'+_0x37c932['status']+'\x0a')+(_0x397ac6(0x24e)+_0x37c932['name']+'\x0a')+(_0x397ac6(0x1aa)+_0x37c932[_0x397ac6(0x170)]+'\x0a')+(_0x397ac6(0x16b)+_0x37c932[_0x397ac6(0x1e7)]+'\x0a')+(_0x397ac6(0x279)+_0x37c932['date']+'\x0a\x0a')+_0x397ac6(0x188);_0x4930df[_0x397ac6(0x175)](_0x86fd14,{'text':_0x456c0a},{'quoted':_0xb25294});}else _0x37c932[_0x397ac6(0x218)]===_0x397ac6(0x24d)&&(clearInterval(_0x41e05),_0xb25294[_0x397ac6(0x245)](_0x397ac6(0x187)));});},0x1388);}break;}case _0x1e4f27(0x256):{const _0x2cae7a=_0x3ddd62['split'](',')[_0x1e4f27(0x19c)](_0x28fb8b=>_0x28fb8b[_0x1e4f27(0x295)]()),[_0x3e91fa]=_0x2cae7a;if(!_0x3e91fa)return _0xb25294['reply'](_0x1e4f27(0x1d4)+(_0x1e4f27(0x297)+prefix+_0x15cc58+_0x1e4f27(0x22c))+(_0x1e4f27(0x1ce)+prefix+_0x15cc58+'\x20ABC123456`'));const _0x199653=path[_0x1e4f27(0x248)](__dirname,'tmp',_0x1e4f27(0x176));let _0x3f7946={};fs[_0x1e4f27(0x1a2)](_0x199653)&&(_0x3f7946=JSON[_0x1e4f27(0x1e1)](fs[_0x1e4f27(0x1af)](_0x199653,_0x1e4f27(0x246))));if(!_0x3f7946[_0x255405])return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x16e));if(!_0x3f7946[_0x255405][_0x1e4f27(0x1e0)]===_0x3e91fa)return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1ef));const _0x438055=_0x3f7946[_0x255405]['payId'];axios['post'](config[_0x1e4f27(0x161)][_0x1e4f27(0x230)]+_0x1e4f27(0x236),{'id':_0x438055,'api_key':config[_0x1e4f27(0x161)][_0x1e4f27(0x1b0)]})['then'](()=>{const _0x1d5de3=_0x1e4f27;delete _0x3f7946[_0x255405],fs[_0x1d5de3(0x27b)](_0x199653,JSON[_0x1d5de3(0x18d)](_0x3f7946,null,0x2)),_0xb25294['reply'](_0x1d5de3(0x20b)+_0x3e91fa+_0x1d5de3(0x23d)+_0x438055+_0x1d5de3(0x254));})[_0x1e4f27(0x1ca)](_0x4da476=>{const _0x11ef21=_0x1e4f27;console['error']('Error:',_0x4da476),_0xb25294[_0x11ef21(0x245)](_0x11ef21(0x1e6));});break;}case _0x1e4f27(0x262):{if(!(_0x5abf6||_0x2e695a))return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1d2));const _0x226443=_0x3ddd62[_0x1e4f27(0x203)](',')[_0x1e4f27(0x19c)](_0x59d83e=>_0x59d83e[_0x1e4f27(0x295)]()),[_0xe04253,..._0x204ebc]=_0x226443,_0x4c3074=_0x204ebc[_0x1e4f27(0x248)](',');if(!_0xe04253||!_0x4c3074)return _0xb25294['reply'](_0x1e4f27(0x207)+prefix+_0x15cc58+_0x1e4f27(0x1e8));;const _0x1863e6=generateRandomText(0xa);try{const _0x3bf175=await axios[_0x1e4f27(0x1cd)](config[_0x1e4f27(0x161)][_0x1e4f27(0x230)]+_0x1e4f27(0x1e5),{'reff_id':_0x1863e6,'product_code':_0xe04253[_0x1e4f27(0x165)](),'target':_0x4c3074,'api_key':config[_0x1e4f27(0x161)][_0x1e4f27(0x1b0)]}),_0x5aa9b3=_0x3bf175[_0x1e4f27(0x195)];if(!_0x5aa9b3[_0x1e4f27(0x195)])return _0xb25294[_0x1e4f27(0x245)](_0x5aa9b3[_0x1e4f27(0x1c1)]);const _0x15047c=_0x1e4f27(0x21d)+_0x5aa9b3[_0x1e4f27(0x195)]['name']+_0x1e4f27(0x219)+_0x5aa9b3[_0x1e4f27(0x195)][_0x1e4f27(0x170)]+_0x1e4f27(0x1d0)+_0x5aa9b3[_0x1e4f27(0x195)]['reff_id']+'\x0aNominal:\x20Rp\x20'+toRupiah(_0x5aa9b3['data'][_0x1e4f27(0x1fc)])+'\x0aSN:\x20'+_0x5aa9b3[_0x1e4f27(0x195)][_0x1e4f27(0x1e7)]+_0x1e4f27(0x1db)+_0x5aa9b3[_0x1e4f27(0x195)][_0x1e4f27(0x27d)];_0x4930df[_0x1e4f27(0x175)](_0x86fd14,{'text':_0x15047c},{'quoted':_0xb25294})[_0x1e4f27(0x1bb)](_0xdb1d7d=>{const _0xd49357=_0x1e4f27;_0x148206(_0x5aa9b3[_0xd49357(0x195)]['id'],_0xdb1d7d[_0xd49357(0x22f)]['id']),setTimeout(()=>{const _0x42e84b=_0xd49357;_0x4930df[_0x42e84b(0x175)](_0x86fd14,{'delete':{'remoteJid':_0x86fd14,'fromMe':!![],'id':_0xdb1d7d[_0x42e84b(0x22f)]['id']}});},0x493e0);});}catch(_0x3bf264){console[_0x1e4f27(0x2a8)](_0x1e4f27(0x17d),_0x3bf264),_0xb25294['reply'](_0x1e4f27(0x1d8));}async function _0x148206(_0x5ba88f,_0x242516){const _0x55f61f=setInterval(async()=>{const _0x333508=_0x56d5,_0xfce4fb=await axios[_0x333508(0x1cd)](config[_0x333508(0x161)][_0x333508(0x230)]+_0x333508(0x222),{'id':_0x5ba88f,'api_key':config[_0x333508(0x161)][_0x333508(0x1b0)]}),_0x33379a=_0xfce4fb[_0x333508(0x195)];if(_0x33379a[_0x333508(0x195)][_0x333508(0x218)]===_0x333508(0x1a3))clearInterval(_0x55f61f),clearTimeout(timeout),_0xb25294[_0x333508(0x245)]('⬣\x20*Pembelian\x20Berhasil!*\x0a\x0a'+(_0x333508(0x1b1)+_0x33379a[_0x333508(0x195)]['reff_id']+'\x0a')+('◉\x20Status:\x20'+_0x33379a[_0x333508(0x195)][_0x333508(0x218)]+'\x0a')+(_0x333508(0x24e)+_0x33379a[_0x333508(0x195)][_0x333508(0x20e)]+'\x0a')+(_0x333508(0x1aa)+_0x33379a[_0x333508(0x195)]['target']+'\x0a')+(_0x333508(0x16b)+_0x33379a[_0x333508(0x195)][_0x333508(0x1e7)]+'\x0a')+(_0x333508(0x279)+_0x33379a[_0x333508(0x195)][_0x333508(0x27d)]+'\x0a\x0a')+_0x333508(0x188)),_0x4930df['sendMessage'](_0x86fd14,{'delete':{'remoteJid':_0x86fd14,'fromMe':!![],'id':_0x242516}});else _0x33379a['data'][_0x333508(0x218)]==='failed'&&(clearInterval(_0x55f61f),_0xb25294[_0x333508(0x245)]('Sangat\x20Disayangkan\x20Sekali.\x20Pembayaran\x20Kamu\x20Dibatalkan\x20Oleh\x20Sistem.'));},0x1388);}break;}case _0x1e4f27(0x1f8):case _0x1e4f27(0x290):{if(!(_0x5abf6||_0x2e695a))return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1d2));if(!_0x3ddd62)return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1f9)+prefix+_0x15cc58+_0x1e4f27(0x212));const _0x2e7e43=_0x3ddd62;if(_0x2e7e43<0x1f4)return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x259));const _0x31778a=generateRandomText(0xa);try{const _0x18bbcb=await axios['post'](config[_0x1e4f27(0x161)][_0x1e4f27(0x230)]+'/api/h2h/deposit/create',{'reff_id':_0x31778a,'type':_0x1e4f27(0x16f),'method':_0x1e4f27(0x299),'nominal':_0x2e7e43,'api_key':config['api'][_0x1e4f27(0x1b0)]}),_0x28590e=_0x18bbcb[_0x1e4f27(0x195)];if(!_0x28590e[_0x1e4f27(0x195)])return _0xb25294[_0x1e4f27(0x245)](_0x28590e[_0x1e4f27(0x1c1)]);const _0x397430=_0x1e4f27(0x232)+_0x28590e[_0x1e4f27(0x195)]['reff_id']+'\x0aNominal:\x20Rp\x20'+toRupiah(_0x28590e[_0x1e4f27(0x195)][_0x1e4f27(0x284)])+_0x1e4f27(0x293)+toRupiah(_0x28590e[_0x1e4f27(0x195)][_0x1e4f27(0x21b)])+'\x0aDiterima:\x20Rp\x20'+toRupiah(_0x28590e['data'][_0x1e4f27(0x180)])+'\x0aDibuat\x20pada:\x20'+_0x28590e[_0x1e4f27(0x195)][_0x1e4f27(0x1fd)]+_0x1e4f27(0x27a);_0x4930df[_0x1e4f27(0x175)](_0x86fd14,{'image':{'url':_0x28590e[_0x1e4f27(0x195)][_0x1e4f27(0x291)]},'caption':_0x397430},{'quoted':_0xb25294})[_0x1e4f27(0x1bb)](_0x403083=>{const _0xa89a3b=_0x1e4f27;_0x26aa4e(_0x28590e['data']['id'],_0x403083[_0xa89a3b(0x22f)]['id']),setTimeout(()=>{const _0x8daad=_0xa89a3b;_0x4930df[_0x8daad(0x175)](_0x86fd14,{'delete':{'remoteJid':_0x86fd14,'fromMe':!![],'id':_0x403083[_0x8daad(0x22f)]['id']}});},0x493e0);});async function _0x26aa4e(_0x1d6e49,_0x3eb8c3){const _0x233385=setInterval(async()=>{const _0x6196b0=_0x56d5,_0x4f015c=await axios[_0x6196b0(0x1cd)](config[_0x6196b0(0x161)][_0x6196b0(0x230)]+_0x6196b0(0x172),{'id':_0x1d6e49,'api_key':config[_0x6196b0(0x161)]['secret_key']}),_0xc614f7=_0x4f015c[_0x6196b0(0x195)];if(_0xc614f7[_0x6196b0(0x195)]['status']===_0x6196b0(0x1a3))clearInterval(_0x233385),clearTimeout(_0x1df437),_0xb25294['reply'](_0x6196b0(0x243)+(_0x6196b0(0x1b1)+_0xc614f7[_0x6196b0(0x195)]['reff_id']+'\x0a')+(_0x6196b0(0x19e)+_0xc614f7['data'][_0x6196b0(0x218)]+'\x0a')+(_0x6196b0(0x1df)+toRupiah(_0xc614f7[_0x6196b0(0x195)][_0x6196b0(0x180)])+'\x0a')+(_0x6196b0(0x279)+_0xc614f7[_0x6196b0(0x195)][_0x6196b0(0x27d)]+'\x0a\x0a')+_0x6196b0(0x188)),_0x4930df[_0x6196b0(0x175)](_0x86fd14,{'delete':{'remoteJid':_0x86fd14,'fromMe':!![],'id':_0x3eb8c3}});else _0xc614f7[_0x6196b0(0x195)]['status']===_0x6196b0(0x24d)&&(clearInterval(_0x233385),_0xb25294[_0x6196b0(0x245)](_0x6196b0(0x162)));},0x1388),_0x1df437=setTimeout(async()=>{const _0x29ed9e=_0x56d5;clearInterval(_0x233385);const _0x38fac5=await axios[_0x29ed9e(0x1cd)](config['api'][_0x29ed9e(0x230)]+'/api/h2h/deposit/cancel',{'id':_0x1d6e49,'api_key':config[_0x29ed9e(0x161)][_0x29ed9e(0x1b0)]}),_0x198f8b=_0x38fac5[_0x29ed9e(0x195)];if(!_0x198f8b[_0x29ed9e(0x195)])return _0xb25294[_0x29ed9e(0x245)](_0x198f8b[_0x29ed9e(0x1c1)]);_0xb25294[_0x29ed9e(0x245)](_0x29ed9e(0x1ab));},0x493e0);}}catch(_0x561c24){console['error']('Error\x20fetching\x20data:',_0x561c24),_0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x266));}break;}case _0x1e4f27(0x221):case'wd_balance':case'wd':{if(!(_0x5abf6||_0x2e695a))return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1d2));if(!_0x3ddd62)return _0xb25294['reply'](_0x1e4f27(0x1f9)+prefix+_0x15cc58+'\x203000.');const _0x1a6253=_0x3ddd62;if(_0x1a6253<0xbb8)return _0xb25294['reply'](_0x1e4f27(0x283));const _0x5c7f90=generateRandomText(0xa);try{const _0x36a813=await axios[_0x1e4f27(0x1cd)](config[_0x1e4f27(0x161)]['base_url']+_0x1e4f27(0x19a),{'reff_id':_0x5c7f90,'bank_code':_0x1e4f27(0x1dc),'account_number':config['api'][_0x1e4f27(0x1dd)]['number'],'owner_name':config[_0x1e4f27(0x161)][_0x1e4f27(0x1dd)]['name'],'email_address':config[_0x1e4f27(0x161)][_0x1e4f27(0x1dd)][_0x1e4f27(0x206)],'phone_number':config['api'][_0x1e4f27(0x1dd)][_0x1e4f27(0x174)],'note':_0x1e4f27(0x1a9),'nominal':_0x1a6253,'api_key':config[_0x1e4f27(0x161)][_0x1e4f27(0x1b0)]}),_0x19b0fb=_0x36a813[_0x1e4f27(0x195)];console['log'](_0x19b0fb['message']);if(!_0x19b0fb[_0x1e4f27(0x195)])return _0xb25294[_0x1e4f27(0x245)](_0x19b0fb['message']);const _0x452bef='Reff\x20id:\x20'+_0x19b0fb[_0x1e4f27(0x195)][_0x1e4f27(0x20c)]+_0x1e4f27(0x270)+_0x19b0fb[_0x1e4f27(0x195)]['name']+_0x1e4f27(0x192)+_0x19b0fb[_0x1e4f27(0x195)]['number']+_0x1e4f27(0x28a)+toRupiah(_0x19b0fb[_0x1e4f27(0x195)]['nominal'])+'\x0aFee:\x20Rp\x20'+toRupiah(_0x19b0fb[_0x1e4f27(0x195)]['fee'])+_0x1e4f27(0x225)+toRupiah(_0x19b0fb['data'][_0x1e4f27(0x24c)])+_0x1e4f27(0x1db)+_0x19b0fb['data'][_0x1e4f27(0x27d)];_0x4930df['sendMessage'](_0x86fd14,{'text':_0x452bef},{'quoted':_0xb25294})[_0x1e4f27(0x1bb)](_0x4cf3b4=>{const _0x1dbedc=_0x1e4f27;_0x435e4c(_0x19b0fb[_0x1dbedc(0x195)]['id'],_0x4cf3b4[_0x1dbedc(0x22f)]['id']);});async function _0x435e4c(_0x1dc6fe,_0x441863){const _0x2ed503=setInterval(async()=>{const _0x35172d=_0x56d5,_0x2cb20f=await axios[_0x35172d(0x1cd)](config[_0x35172d(0x161)]['base_url']+_0x35172d(0x228),{'id':_0x1dc6fe,'api_key':config[_0x35172d(0x161)][_0x35172d(0x1b0)]}),_0x2a77e5=_0x2cb20f[_0x35172d(0x195)];if(_0x2a77e5[_0x35172d(0x195)][_0x35172d(0x218)]==_0x35172d(0x1a3))clearInterval(_0x2ed503),_0xb25294[_0x35172d(0x245)]('Berhasil\x20melakukan\x20transfer.');else _0x2a77e5['data'][_0x35172d(0x218)]=='failed'&&(clearInterval(_0x2ed503),_0xb25294[_0x35172d(0x245)](_0x35172d(0x251)));},0x1388);}}catch(_0x4eba68){console[_0x1e4f27(0x2a8)]('Error\x20fetching\x20data:',_0x4eba68),_0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1d8));}break;}case _0x1e4f27(0x1f1):case _0x1e4f27(0x276):{if(!(_0x5abf6||_0x2e695a))return _0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x1d2));const _0x3c50d4=await axios[_0x1e4f27(0x1cd)](config[_0x1e4f27(0x161)][_0x1e4f27(0x230)]+_0x1e4f27(0x296),{'api_key':config['api'][_0x1e4f27(0x1b0)]}),_0x1b3d9d=_0x3c50d4[_0x1e4f27(0x195)];_0xb25294[_0x1e4f27(0x245)](_0x1e4f27(0x2a4)+toRupiah(_0x1b3d9d[_0x1e4f27(0x195)][_0x1e4f27(0x21e)]));break;}}}catch(_0x3067e2){console[_0x1e4f27(0x2a8)](_0x3067e2);}};
+const chalk = require('chalk');
+const fs = require('fs');
+const util = require('util');
+const axios = require('axios');
+const path = require('path');
+const request = require('request');
+const mimeType = require('mime-types');
+const os = require('os');
+const speed = require('performance-now');
+const {
+    performance
+} = require('perf_hooks');
+const {
+    exec,
+    spawn,
+    execSync
+} = require('child_process');
 
-/**
-* Mau beli script no enc? harga murah bngt, ga sampe 100rb
-* Contact:
-* - WhatsApp: +62 838-3499-4479 or +62 823-2066-7363
-* - Email: dani.technology.id@gmail.com
-*/
+const {
+    imageUploader,
+    generateRandomText,
+    toRupiah
+} = require('./lib/functions.js');
+
+const config = require('./config.js');
+const prefix = config.prefix || '';
+
+const date = new Date();
+const currentTime = `${date.getHours()}:${date.getMinutes() < 10 ? '0' : ''}${date.getMinutes()}:${date.getSeconds() < 10 ? '0' : ''}${date.getSeconds()} WIB, ${date.getDate() < 10 ? '0' : ''}${date.getDate()}-${date.getMonth() + 1 < 10 ? '0' : ''}${date.getMonth() + 1}-${date.getFullYear()}`;
+
+module.exports = async (socket, messages, memoryStore) => {
+    const client = sock = socket;
+    const msg = messages;
+    const mstore = memoryStore;
+
+    const jid = msg.chat ? msg.chat : msg.key.remoteJid;
+    const botNumber = socket.user.id.split(':')[0];
+    const ownerNumber = config.owner_number;
+    const senderNumber = msg.sender.replace(/\D/g, '');
+    let senderName = msg.pushName || 'Unknown';
+
+    if (senderNumber === botNumber) {
+        senderName = 'Me';
+    }
+
+    const body = msg.mtype === 'conversation' ? msg.message.conversation : msg.mtype === 'extendedTextMessage' ? msg.message.extendedTextMessage.text : msg.mtype === 'imageMessage' ? msg.message.imageMessage.caption : msg.mtype === 'videoMessage' ? msg.message.videoMessage.caption : '';
+    const budy = typeof msg.text === 'string' ? msg.text : '';
+    const commands = body.startsWith(config.prefix) ? body.replace(config.prefix, '').trim().split(/ +/).shift().toLowerCase() : ''; // to use without prefix: body.trim().split(/ +/).shift().toLowerCase()
+    const command = config.prefix ? commands.replace(config.prefix, '') : body.trim().split(/ +/).shift().toLowerCase();
+    const query = body.trim().split(/ +/).slice(1).join(' ');
+    const params = query.split('|').map(param => param.trim());
+    const isQuoted = msg.quoted ? msg.quoted : msg;
+    const isQuotedMsg = (isQuoted.msg || isQuoted);
+    const isQuotedMimeType = (isQuoted.msg || isQuoted).mimetype || '';
+    const isQuotedText = msg.type === 'extendexTextMessage' && JSON.stringify(msg).includes('textMessage');
+    const isQuotedImage = msg.type === 'extendedTextMessage' && JSON.stringify(msg).includes('imageMessage');
+    const isQuotedLocation = msg.type === 'extendedTextMessage' && JSON.stringify(msg).includes('locationMessage');
+    const isQuotedVideo = msg.type === 'extendedTextMessage' && JSON.stringify(msg).includes('videoMessage');
+    const isQuotedSticker = msg.type === 'extendedTextMessage' && JSON.stringify(msg).includes('stickerMessage');
+    const isQuotedAudio = msg.type === 'extendedTextMessage' && JSON.stringify(msg).includes('audioMessage');
+    const isQuotedContact = msg.type === 'extendedTextMessage' && JSON.stringify(msg).includes('contactMessage');
+    const isQuotedDocument = msg.type === 'extendedTextMessage' && JSON.stringify(msg).includes('documentMessage');
+    const isMedia = /image|video|sticker|audio/.test(isQuotedMimeType);
+    const isImage = (msg.type == 'imageMessage');
+    const isVideo = (msg.type == 'videoMessage');
+    const isAudio = (msg.type == 'audioMessage');
+    const isText = (msg.type == 'textMessage');
+    const isSticker = (msg.type == 'stickerMessage');
+
+    const isMe = botNumber === senderNumber;
+    const isOwner = ownerNumber === senderNumber;
+
+    /*console.log('ownerNumber', ownerNumber);
+    console.log('botNumber', botNumber);
+    console.log('senderNumber', senderNumber);
+    console.log('isMe', isMe);
+    console.log('isOwner', isOwner);*/
+
+    const isGroup = msg.isGroup;
+
+    let groupMetadata;
+    let groupName;
+    let groupId;
+    let groupAdmin;
+
+    if (isGroup) {
+        groupMetadata = await client.groupMetadata(jid);
+        groupName = groupMetadata.subject;
+        groupId = groupMetadata.id;
+        groupAdmin = groupMetadata.participants.find(participant => participant.id === msg.sender && participant.admin !== null);
+    }
+
+    if (config.chat_mode === 'private') {
+        if (msg) {
+            if (isGroup) {
+                if (body.startsWith(config.prefix)) {
+                    msg.reply('Bot hanya dapat digunakan di private chat');
+                    return;
+                }
+            }
+        }
+    } else if (config.chat_mode === 'group') {
+        if (msg) {
+            if (!isGroup) {
+                if (body.startsWith(config.prefix)) {
+                    msg.reply('Bot hanya dapat digunakan di group chat');
+                    return;
+                }
+            }
+        }
+    } else if (config.chat_mode === 'self') {
+        if (!msg.key.fromMe && !isOwner) {
+            return;
+        }
+    }
+
+    if (config.bot_offline_status) {
+        client.sendPresenceUpdate('unavailable', jid);
+    }
+
+    if (config.automatic_update_profile_status[0]) {
+        client.updateProfileStatus(config.automatic_update_profile_status[1]);
+    }
+
+    if (msg.message) {
+        if (body.startsWith(config.prefix)) {
+            if (config.automatic_read_messages) {
+                client.readMessages([msg.key]);
+            }
+
+            if (config.automatic_typing_or_recording[0]) {
+                if (config.automatic_typing_or_recording[1] === 'typing') {
+                    client.sendPresenceUpdate('composing', jid);
+                } else if (config.automatic_typing_or_recording[1] === 'recording') {
+                    client.sendPresenceUpdate('recording', jid);
+                }
+            }
+        }
+
+        if (config.only_show_command_chat) {
+            if (msg.message && body.startsWith(config.prefix)) {
+                console.log('\n• ' + chalk.bold(chalk.greenBright('New Message:')) + '\n- ' + chalk.cyanBright('From:'), chalk.whiteBright(senderName), chalk.yellowBright('- ' + senderNumber) + '\n- ' + chalk.cyanBright('In:'), chalk.whiteBright(!isGroup ? 'Private Chat' : 'Group Chat - ' + chalk.yellowBright(groupName)) + '\n- ' + chalk.cyanBright('Time: ') + chalk.whiteBright(currentTime) + '\n- ' + chalk.cyanBright('Message: ') + chalk.whiteBright(body || msg.mtype));
+            }
+        } else {
+            console.log('\n• ' + chalk.bold(chalk.greenBright('New Message:')) + '\n- ' + chalk.cyanBright('From:'), chalk.whiteBright(senderName), chalk.yellowBright('- ' + senderNumber) + '\n- ' + chalk.cyanBright('In:'), chalk.whiteBright(!isGroup ? 'Private Chat' : 'Group Chat - ' + chalk.yellowBright(groupName)) + '\n- ' + chalk.cyanBright('Time: ') + chalk.whiteBright(currentTime) + '\n- ' + chalk.cyanBright('Message: ') + chalk.whiteBright(body || msg.mtype));
+        }
+    }
+
+    /*if (!body.startsWith(config.prefix) || body === config.prefix) {
+        return;
+    }*/
+    
+    const tmpFilePath = path.join(__dirname, 'tmp', 'orders.json');
+
+setInterval(() => {
+    if (fs.existsSync(tmpFilePath)) {
+        const orderData = JSON.parse(fs.readFileSync(tmpFilePath, 'utf8'));
+
+        Object.keys(orderData).forEach(key => {
+            const createdAt = new Date(orderData[key].createdAt).getTime();
+            const currentTime = Date.now();
+
+            if (currentTime - createdAt > 300000) {
+                const payId = orderData[key].payId;
+
+                axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
+                    id: payId,
+                    api_key: config.api.secret_key,
+                })
+                .then(() => {
+                    delete orderData[key];
+                    fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+                    console.log(`Pembayaran dengan ID ${payId} dibatalkan karena sudah lebih dari 5 menit.`);
+                })
+                .catch(err => {
+                    console.error(`Gagal membatalkan pembayaran dengan ID ${payId}:`, err);
+                });
+            }
+        });
+
+        fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+    }
+}, 5000);
+
+    try {
+        switch (command) {
+            case 'test': {
+                msg.reply('Ok, Success!');
+                break;
+            }
+
+            case 'totalfitur': {
+                const totalFitur = (fs.readFileSync('./handler.js').toString().match(new RegExp('break', 'g')) || []).length - 1;
+
+                msg.reply(`Jumlah fitur saat ini: ${totalFitur}`);
+                break;
+            }
+
+            case 'whoami': {
+                if (!(isOwner || isMe)) return msg.reply('Anda adalah pengguna bot.');
+
+                if (isOwner) {
+                    msg.reply('Anda adalah owner bot.');
+                } else if (isMe) {
+                    msg.reply('Anda adalah bot.');
+                } else {
+                    msg.reply('Anda adalah bot sekaligus owner bot nya.');
+                }
+
+                break;
+            }
+
+            /* Features area */
+            
+            case 'owner_menu':
+            case 'menu_owner': {
+                if (!(isOwner || isMe)) return msg.reply('❌ Kamu tidak memiliki izin untuk menggunakan fitur ini.');
+
+                const menu = `*\`Hai ${senderName}\`*
+
+- ${prefix}buy <code,target>
+- ${prefix}check_balance
+- ${prefix}wd_balance <nominal>
+`;
+
+                msg.reply(menu);
+                break;
+            }
+
+            case 'menu':
+            case 'list': {
+                const menu = `*\`Hai ${senderName}\`*
+
+\`Game Populer\`
+- ${prefix}mlbb
+- ${prefix}ml_wdp
+- ${prefix}ml_sl
+- ${prefix}ml_tl
+- ${prefix}hok
+- ${prefix}aov
+- ${prefix}lol
+- ${prefix}coc
+- ${prefix}ff
+- ${prefix}pubg
+
+\`Data Internet\`
+- ${prefix}byu_data
+- ${prefix}tsel_data
+- ${prefix}xl_data
+- ${prefix}axis_data
+- ${prefix}isat_data
+- ${prefix}tri_data
+
+\`Pulsa Reguler & Transfer\`
+- ${prefix}byu_pulsa
+- ${prefix}tsel_pulsa
+- ${prefix}xl_pulsa
+- ${prefix}axis_pulsa
+- ${prefix}isat_pulsa
+- ${prefix}tri_pulsa
+
+\`Voucher\`
+- ${prefix}pln
+
+Ketik *${prefix}search <name>* atau *${prefix}search_by_code <code>* untuk mencari kode produk.
+
+\`Bot ini telah terintegrasi dengan API yang disediakan oleh ${config.api.base_url}\`
+`;
+
+                msg.reply(menu);
+                break;
+            }
+
+            case 'sr':
+            case 'search': {
+                if (!query) return msg.reply(`Example: ${prefix}${command} MLW`);
+
+                try {
+                    const filterName = query;
+
+                    const response = await axios.post(config.api.base_url + '/api/h2h/price-list/all', {
+                        filter_name: filterName,
+                        api_key: config.api.secret_key
+                    }, {
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+
+                    const result = response.data;
+
+                    if (!result.data) return msg.reply(result.message);
+
+                    let listText = '';
+                    result.data.forEach(item => {
+                        const profit = (config.api.profit / 100) * item.price;
+                        const finalPrice = Number(item.price) + Number(Math.ceil(profit));
+                        listText += `╭⟬ *${item.status} ${item.name}*\n` +
+                            `┆•  Harga: Rp ${toRupiah(finalPrice)}\n` +
+                            `┆•  Kode:  ${item.code}\n` +
+                            `╰──────────◇\n\n`;
+                    });
+
+                    msg.reply(listText);
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    msg.reply('Produk yg anda cari tidak ditemukan.');
+                }
+
+                break;
+            }
+
+            case 'srbc':
+            case 'search_by_code': {
+                if (!query) return msg.reply(`Example: ${prefix}${command} MLW`);
+
+                try {
+                    const filterCode = query.toUpperCase();
+
+                    const response = await axios.post(config.api.base_url + '/api/h2h/price-list/all', {
+                        filter_code: filterCode,
+                        api_key: config.api.secret_key
+                    }, {
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+
+                    const result = response.data;
+
+                    if (!result.data) return msg.reply(result.message);
+
+                    let listText = '';
+                    result.data.forEach(item => {
+                        const profit = (config.api.profit / 100) * item.price;
+                        const finalPrice = Number(item.price) + Number(Math.ceil(profit));
+                        listText += `╭⟬ *${item.status} ${item.name}*\n` +
+                            `┆•  Harga: Rp ${toRupiah(finalPrice)}\n` +
+                            `┆•  Kode:  ${item.code}\n` +
+                            `╰──────────◇\n\n`;
+                    });
+
+                    msg.reply(listText);
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    msg.reply('Produk yg anda cari tidak ditemukan.');
+                }
+
+                break;
+            }
+
+            case 'ml':
+            case 'ml_wdp':
+            case 'ml_sl':
+            case 'ml_tl':
+            case 'wdp':
+            case 'starlight':
+            case 'twilight':
+            case 'hok':
+            case 'aov':
+            case 'lol':
+            case 'coc':
+            case 'ff':
+            case 'pubg':
+
+            case 'byu_data':
+            case 'tsel_data':
+            case 'xl_data':
+            case 'axis_data':
+            case 'isat_data':
+            case 'tri_data':
+
+            case 'byu_pulsa':
+            case 'tsel_pulsa':
+            case 'xl_pulsa':
+            case 'axis_pulsa':
+            case 'isat_pulsa':
+            case 'tri_pulsa':
+
+            case 'pln': {
+                const products = {
+                    'ml': {
+                        name: 'mobile-legends',
+                        category: 'games',
+                        filter_code: null
+                    },
+                    'mlbb': {
+                        name: 'mobile-legends',
+                        category: 'games',
+                        filter_code: null
+                    },
+                    'ml_wdp': {
+                        name: 'mobile-legends',
+                        category: 'games',
+                        filter_code: 'MLW'
+                    },
+                    'ml_sl': {
+                        name: 'mobile-legends',
+                        category: 'games',
+                        filter_code: 'MLS'
+                    },
+                    'ml_tl': {
+                        name: 'mobile-legends',
+                        category: 'games',
+                        filter_code: 'MLT'
+                    },
+                    'wdp': {
+                        name: 'mobile-legends',
+                        category: 'games',
+                        filter_code: 'MLW'
+                    },
+                    'starlight': {
+                        name: 'mobile-legends',
+                        category: 'games',
+                        filter_code: 'MLS'
+                    },
+                    'twilight': {
+                        name: 'mobile-legends',
+                        category: 'games',
+                        filter_code: 'MLT'
+                    },
+                    'hok': {
+                        name: 'honor-of-kings',
+                        category: 'games',
+                        filter_code: null
+                    },
+                    'aov': {
+                        name: 'arena-of-valor',
+                        category: 'games',
+                        filter_code: null
+                    },
+                    'lol': {
+                        name: 'league-of-legends',
+                        category: 'games',
+                        filter_code: null
+                    },
+                    'coc': {
+                        name: 'clash-of-clans',
+                        category: 'games',
+                        filter_code: null
+                    },
+                    'ff': {
+                        name: 'free-fire',
+                        category: 'games',
+                        filter_code: null
+                    },
+                    'pubg': {
+                        name: 'pubg',
+                        category: 'games',
+                        filter_code: null
+                    },
+
+                    'byu_data': {
+                        name: 'byu',
+                        category: 'data-internet',
+                        filter_code: null
+                    },
+                    'telkomsel_data': {
+                        name: 'telkomsel',
+                        category: 'data-internet',
+                        filter_code: null
+                    },
+                    'tsel_data': {
+                        name: 'telkomsel',
+                        category: 'data-internet',
+                        filter_code: null
+                    },
+                    'xl_data': {
+                        name: 'xl',
+                        category: 'data-internet',
+                        filter_code: null
+                    },
+                    'axis_data': {
+                        name: 'axis',
+                        category: 'data-internet',
+                        filter_code: null
+                    },
+                    'indosat_data': {
+                        name: 'indosat',
+                        category: 'data-internet',
+                        filter_code: null
+                    },
+                    'isat_data': {
+                        name: 'indosat',
+                        category: 'data-internet',
+                        filter_code: null
+                    },
+                    'tri_data': {
+                        name: 'tri',
+                        category: 'data-internet',
+                        filter_code: null
+                    },
+
+                    'byu_pulsa': {
+                        name: 'byu',
+                        category: 'pulsa',
+                        filter_code: null
+                    },
+                    'telkomsel_pulsa': {
+                        name: 'telkomsel',
+                        category: 'pulsa',
+                        filter_code: null
+                    },
+                    'tsel_pulsa': {
+                        name: 'telkomsel',
+                        category: 'pulsa',
+                        filter_code: null
+                    },
+                    'xl_pulsa': {
+                        name: 'xl',
+                        category: 'pulsa',
+                        filter_code: null
+                    },
+                    'axis_pulsa': {
+                        name: 'axis',
+                        category: 'pulsa',
+                        filter_code: null
+                    },
+                    'indosat_pulsa': {
+                        name: 'indosat',
+                        category: 'pulsa',
+                        filter_code: null
+                    },
+                    'isat_pulsa': {
+                        name: 'indosat',
+                        category: 'pulsa',
+                        filter_code: null
+                    },
+                    'tri_pulsa': {
+                        name: 'tri',
+                        category: 'pulsa',
+                        filter_code: null
+                    },
+
+                    'pln': {
+                        name: 'pln',
+                        category: 'voucher',
+                        filter_code: null
+                    }
+
+                };
+
+                const productKey = products[command];
+                if (!productKey) {
+                    return msg.reply('Perintah tidak valid.');
+                }
+
+                try {
+                    const response = await axios.post(
+                        `${config.api.base_url}/api/h2h/price-list/${productKey.category}/${productKey.name}`, {
+                            filter_code: productKey.filter_code || undefined,
+                            api_key: config.api.secret_key,
+                        }, {
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                        }
+                    );
+
+                    const result = response.data;
+
+                    if (!result.data) {
+                        return msg.reply(result.message);
+                    }
+
+                    let listText = `*✅ : Tersedia*
+*⛔ : Tidak Tersedia*
+
+_Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
+
+\`Bot ini telah terintegrasi dengan API yang disediakan oleh ${config.api.base_url}\`\n\n`;
+                    result.data.forEach((item) => {
+                        const profit = (config.api.profit / 100) * item.price;
+                        const finalPrice = Number(item.price) + Number(Math.ceil(profit));
+                        listText += `╭⟬ *${item.status} ${item.name}*\n` +
+                            `┆•  Harga: Rp ${toRupiah(finalPrice)}\n` +
+                            `┆•  Kode:  ${item.code}\n` +
+                            `╰──────────◇\n\n`;
+                    });
+
+                    msg.reply(listText);
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    msg.reply('Terjadi kesalahan, silahkan coba lagi nanti.');
+                }
+
+                break;
+            }
+
+            // Orders
+case 'order':
+case 'topup': {
+    const params = query.split(',').map(param => param.trim());
+    const [code, ...targets] = params;
+    const target = targets.join('|');
+
+    if (!code || !target) {
+        return msg.reply(`Semua parameter (code, target) diperlukan.\n\n*PETUNJUK PENGGUNAAN*
+
+\`Produk game\`
+- Format order: ${prefix}${command} KODE,ID
+- Contoh: ${prefix}${command} HOK250,1223334782
+
+\`Khusus produk game yang memakai Zone ID/Server\`
+- Format order: ${prefix}${command} KODE,ID|SERVER
+- Contoh: ${prefix}${command} MLW1,628299715|10135
+
+\`Produk lainnya\`
+- Format order: ${prefix}${command} KODE,TUJUAN
+- Contoh: ${prefix}${command} S100,082320667363`);
+    }
+
+    const reffId = generateRandomText(10);
+    const senderNumber = msg.sender.split('@')[0];
+    const tmpFilePath = path.join(__dirname, 'tmp', 'orders.json');
+
+    let orderData = {};
+    if (fs.existsSync(tmpFilePath)) {
+        orderData = JSON.parse(fs.readFileSync(tmpFilePath, 'utf8'));
+    }
+
+    if (orderData[senderNumber]) {
+        return msg.reply(
+            `Kamu masih memiliki transaksi yang belum selesai. Tunggu hingga pembayaran selesai, kadaluarsa, atau gagal untuk membuat transaksi baru.\n\n_Ingin membatalkan topup? ketik *${prefix}cancel PAYID*_`
+        );
+    }
+    
+    const date = new Date();
+    const currentDate = new Date(date.toLocaleString('en-US', { timeZone: config.time_zone }));
+    
+    axios.post(`${config.api.base_url}/api/h2h/price-list/all`, {
+        api_key: config.api.secret_key,
+    })
+        .then(response => {
+            const data = response.data;
+            if (!data.data) return msg.reply(data.message);
+
+            const produk = data.data.find(item => item.code === code.toUpperCase());
+            if (!produk) return msg.reply('Produk tidak ditemukan.');
+
+            const profit = (config.api.profit / 100) * produk.price;
+            const finalPrice = Number(produk.price) + Math.ceil(profit);
+            const produkDetail = `*Nama Produk:* ${produk.name}\n*Kode Produk:* ${produk.code}`;
+
+            performDeposit(reffId, produkDetail, finalPrice, code, target);
+        })
+        .catch(error => {
+            msg.reply('Transaksi gagal dibuat. Silahkan laporkan masalah ini ke owner bot.');
+            console.error('Error:', error);
+        });
+
+    function performDeposit(reffId, product, nominal, code, target) {
+        axios.post(`${config.api.base_url}/api/h2h/deposit/create`, {
+            reff_id: reffId,
+            type: 'ewallet',
+            method: 'QRISFAST',
+            nominal: nominal,
+            api_key: config.api.secret_key,
+        })
+            .then(response => {
+                const data = response.data;
+                if (!data.data) return msg.reply(data.message);
+
+                orderData[senderNumber] = {
+                    reffId,
+                    payId: data.data.id,
+                    createdAt: data.data.created_at
+                };
+                fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+
+                const text = `*TRANSAKSI BERHASIL DIBUAT*\n\n*Kode Pembayaran:* ${data.data.reff_id}\n*Nominal:* Rp ${toRupiah(data.data.nominal)}\n${product}\n*Dibuat Pada:* ${data.data.created_at}\n\n*Note:* Pembayaran akan otomatis dibatalkan 5 menit lagi!\n\n\`Bot ini telah terintegrasi dengan API yang disediakan oleh ${config.api.base_url}\``;
+
+                client.sendMessage(jid, {
+                    image: { url: data.data.qr_image_url },
+                    caption: text,
+                }, { quoted: msg });
+
+                checkPaymentStatus(data.data.id, reffId, code, target);
+            })
+            .catch(error => console.error('Error:', error));
+    }
+
+    function checkPaymentStatus(payId, reffId, code, target) {
+    const timeout = setTimeout(() => {
+        clearInterval(interval);
+
+        axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
+            id: payId,
+            api_key: config.api.secret_key,
+        })
+            .then(() => {
+                delete orderData[senderNumber];
+                fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+                msg.reply('⚠️ *Pembayaran Dibatalkan Otomatis* setelah 5 menit tanpa konfirmasi keberhasilan.');
+            });
+    }, 300000);
+
+    const interval = setInterval(() => {
+        axios.post(`${config.api.base_url}/api/h2h/deposit/status`, {
+            id: payId,
+            api_key: config.api.secret_key,
+        })
+            .then(response => {
+                const data = response.data.data;
+
+                if (data.status === 'success' || data.status === 'failed') {
+                    clearInterval(interval);
+                    clearTimeout(timeout);
+
+                    delete orderData[senderNumber];
+                    fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+
+                    if (data.status === 'success') {
+                        performTopupTransaction(reffId, code, target);
+                        msg.reply(`⬣ *Pembayaran Berhasil!*\n\n` +
+                                    `◉ ID Pembayaran: ${data.reff_id}\n` +
+                                    `◉ Status: ${data.status}\n` +
+                                    `◉ Diterima: ${toRupiah(data.get_balance)}\n` +
+                                    `◉ Tanggal: ${data.created_at}\n\n` +
+                                    `Terimakasih.`);
+                    } else if (data.status === 'failed' || data.status === 'cancel' || data.status === 'canceled') {
+                    	clearInterval(interval);
+                        return msg.reply('Sangat disayangkan sekali. Pembayaran kamu dibatalkan oleh sistem.');
+                    }
+                }
+            });
+    }, 5000);
+}
+
+function performTopupTransaction(reffId, code, target) {
+                    axios.post(`${config.api.base_url}/api/h2h/transaction/create`, {
+                            reff_id: reffId,
+                            product_code: code.toUpperCase(),
+                            target: target,
+                            api_key: config.api.secret_key,
+                        })
+                        .then(response => {
+                            const data = response.data;
+
+                            if (!data.data) return msg.reply(data.message);
+
+                            const text = 'Pembelian sedang di proses...';
+
+                            client.sendMessage(jid, {
+                                text
+                            }, {
+                                quoted: msg
+                            });
+
+                            checkTransactionStatus(data.data.id);
+                        })
+                        .catch(error => console.error('Error:', error));
+                }
+
+                function checkTransactionStatus(id) {
+                    const interval = setInterval(() => {
+                        axios.post(`${config.api.base_url}/api/h2h/transaction/status`, {
+                                id: id,
+                                api_key: config.api.secret_key,
+                            })
+                            .then(response => {
+                                const data = response.data.data;
+
+                                if (data.status === 'success') {
+                                    clearInterval(interval);
+
+                                    const text = `⬣ *Pembelian Berhasil!*\n\n` +
+                                        `◉ ID Transaksi: ${data.reff_id}\n` +
+                                        `◉ Status: ${data.status}\n` +
+                                        `◉ Layanan: ${data.name}\n` +
+                                        `◉ Target: ${data.target}\n` +
+                                        `◉ Serial Number: ${data.serial_number}\n` +
+                                        `◉ Tanggal: ${data.date}\n\n` +
+                                        `Terimakasih.`;
+
+                                    client.sendMessage(jid, {
+                                        text
+                                    }, {
+                                        quoted: msg
+                                    });
+                                } else if (data.status === 'cancel' || data.status === 'canceled') {
+                                    clearInterval(interval);
+                                } else if (data.status === 'failed') {
+                                    clearInterval(interval);
+                                    msg.reply('Transaksi gagal. Silakan laporkan masalah ini ke owner bot.');
+                                }
+                            });
+                    }, 5000);
+                }
+    break;
+}
+
+            case 'order2':
+            case 'topup2': {
+                const params = query.split(',').map(param => param.trim());
+                const [code, ...targets] = params;
+                const target = targets.join('|');
+
+                if (!code || !target) {
+                    return msg.reply(`Semua parameter (code, target) diperlukan.\n\n*PETUNJUK PENGGUNAAN*
+
+\`Produk game\`
+- Format order: ${prefix}${command} KODE,ID
+- Contoh: ${prefix}${command} HOK250,1223334782
+
+\`Khusus produk game yang memakai Zone ID/Server\`
+- Format order: ${prefix}${command} KODE,ID|SERVER
+- Contoh: ${prefix}${command} MLW1,628299715|10135
+
+\`Produk lainnya\`
+- Format order: ${prefix}${command} KODE,TUJUAN
+- Contoh: ${prefix}${command} S100,082320667363`);
+                }
+
+                const reffId = generateRandomText(10);
+
+                axios.post(`${config.api.base_url}/api/h2h/price-list/all`, {
+                        api_key: config.api.secret_key,
+                    })
+                    .then(response => {
+                        const data = response.data;
+
+                        if (!data.data) return msg.reply(data.message);
+
+                        const produk = data.data.find(item => item.code === code.toUpperCase());
+                        if (!produk) return msg.reply('Produk tidak ditemukan.');
+
+                        const profit = (config.api.profit / 100) * produk.price;
+                        const finalPrice = Number(produk.price) + Math.ceil(profit);
+                        const produkDetail = `*Nama Produk:* ${produk.name}\n*Kode Produk:* ${produk.code}`;
+
+                        lakukanDeposit(reffId, produkDetail, finalPrice, code, target);
+                    })
+                    .catch(error => {
+                        msg.reply('Transaksi gagal dibuat. Silahkan laporkan masalah ini ke owner bot.');
+                        console.error('Error:', error);
+                    });
+
+                function lakukanDeposit(reffId, product, nominal, code, target) {
+                    axios.post(`${config.api.base_url}/api/h2h/deposit/create`, {
+                            reff_id: reffId,
+                            type: 'ewallet',
+                            method: 'QRISFAST',
+                            nominal: nominal,
+                            api_key: config.api.secret_key,
+                        })
+                        .then(response => {
+                            const data = response.data;
+                            
+                            if (!data.data) return msg.reply(data.message);
+
+                            const text = `*TRANSAKSI BERHASIL DIBUAT*\n\n*Kode Pembayaran:* ${data.data.reff_id}\n*Nominal:* Rp ${toRupiah(data.data.nominal)}\n${product}\n*Dibuat Pada:* ${data.data.created_at}\n\n*Note:* Pembayaran akan otomatis dibatalkan 5 menit lagi!\n\n\`Bot ini telah terintegrasi dengan API yang disediakan oleh ${config.api.base_url}\``;
+
+                            client.sendMessage(jid, {
+                                    image: {
+                                        url: data.data.qr_image_url
+                                    },
+                                    caption: text,
+                                }, {
+                                    quoted: msg
+                                })
+                                .then(sentMessage => {
+                                    const messageId = sentMessage.key.id;
+
+                                    checkPaymentStatus(data.data.id, messageId, reffId, code, target);
+
+                                    setTimeout(() => {
+                                        client.sendMessage(jid, {
+                                            delete: {
+                                                remoteJid: jid,
+                                                fromMe: true,
+                                                id: messageId
+                                            },
+                                        });
+                                    }, 300000);
+                                });
+                        })
+                        .catch(error => console.error('Error:', error));
+                }
+
+                function checkPaymentStatus(payId, messageId, reffId, code, target) {
+                    const interval = setInterval(() => {
+                        axios.post(`${config.api.base_url}/api/h2h/deposit/status`, {
+                                id: payId,
+                                api_key: config.api.secret_key,
+                            })
+                            .then(response => {
+                                const data = response.data.data;
+                                
+                                if (data.status === 'success') {
+                                    clearInterval(interval);
+                                    clearTimeout(timeout);
+
+                                    lakukanTransaksiTopup(reffId, code, target);
+
+                                    msg.reply(`⬣ *Pembayaran Berhasil!*\n\n` +
+                                        `◉ ID Pembayaran: ${data.reff_id}\n` +
+                                        `◉ Status: ${data.status}\n` +
+                                        `◉ Diterima: ${toRupiah(data.get_balance)}\n` +
+                                        `◉ Tanggal: ${data.created_at}\n\n` +
+                                        `Terimakasih.`);
+
+                                    client.sendMessage(jid, {
+                                        delete: {
+                                            remoteJid: jid,
+                                            fromMe: true,
+                                            id: messageId
+                                        },
+                                    });
+                                } else if (data.status === 'cancel' || data.status === 'canceled') {
+                                    clearInterval(interval);
+                                } else if (data.status === 'failed') {
+                                    clearInterval(interval);
+                                    msg.reply('Transaksi gagal. Silakan laporkan masalah ini ke owner bot.');
+                                }
+                            });
+                    }, 5000);
+
+                    const timeout = setTimeout(() => {
+                        clearInterval(interval);
+
+                        axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
+                                id: payId,
+                                api_key: config.api.secret_key,
+                            })
+                            .then(response => {
+                                const data = response.data;
+
+                                if (!data.data) return msg.reply(data.message);
+
+                                msg.reply(`⚠️ *Pembayaran Dibatalkan Otomatis* setelah 5 menit tanpa konfirmasi keberhasilan.`);
+                            });
+                    }, 300000);
+                }
+
+                function lakukanTransaksiTopup(reffId, code, target) {
+                    axios.post(`${config.api.base_url}/api/h2h/transaction/create`, {
+                            reff_id: reffId,
+                            product_code: code.toUpperCase(),
+                            target: target,
+                            api_key: config.api.secret_key,
+                        })
+                        .then(response => {
+                            const data = response.data;
+
+                            if (!data.data) return msg.reply(data.message);
+
+                            const text = 'Pembelian sedang di proses...';
+
+                            client.sendMessage(jid, {
+                                text
+                            }, {
+                                quoted: msg
+                            });
+
+                            checkTransaksiStatus(data.data.id);
+                        })
+                        .catch(error => console.error('Error:', error));
+                }
+
+                function checkTransaksiStatus(id) {
+                    const interval = setInterval(() => {
+                        axios.post(`${config.api.base_url}/api/h2h/transaction/status`, {
+                                id: id,
+                                api_key: config.api.secret_key,
+                            })
+                            .then(response => {
+                                const data = response.data.data;
+
+                                if (data.status === 'success') {
+                                    clearInterval(interval);
+
+                                    const text = `⬣ *Pembelian Berhasil!*\n\n` +
+                                        `◉ ID Transaksi: ${data.reff_id}\n` +
+                                        `◉ Status: ${data.status}\n` +
+                                        `◉ Layanan: ${data.name}\n` +
+                                        `◉ Target: ${data.target}\n` +
+                                        `◉ Serial Number: ${data.serial_number}\n` +
+                                        `◉ Tanggal: ${data.date}\n\n` +
+                                        `Terimakasih.`;
+
+                                    client.sendMessage(jid, {
+                                        text
+                                    }, {
+                                        quoted: msg
+                                    });
+                                } else if (data.status === 'cancel' || data.status === 'canceled') {
+                                    clearInterval(interval);
+                                } else if (data.status === 'failed') {
+                                    clearInterval(interval);
+                                    msg.reply('Transaksi gagal. Silakan laporkan masalah ini ke owner bot.');
+                                }
+                            });
+                    }, 5000);
+                }
+                break;
+            }
+            
+            case 'cancel': {
+    const params = query.split(',').map(param => param.trim());
+    const [reffId] = params;
+
+    if (!reffId) {
+        return msg.reply('Parameter `reffId` diperlukan untuk membatalkan deposit.\n\n*PETUNJUK PENGGUNAAN*\n\n' +
+                         `\`Format: ${prefix}${command} REFFID\`\n` +
+                         `\`Contoh: ${prefix}${command} ABC123456\``);
+    }
+
+    const tmpFilePath = path.join(__dirname, 'tmp', 'orders.json');
+
+    let orderData = {};
+    if (fs.existsSync(tmpFilePath)) {
+        orderData = JSON.parse(fs.readFileSync(tmpFilePath, 'utf8'));
+    }
+    
+    if (!orderData[senderNumber]) {
+        return msg.reply('Tidak ada transaksi yang terkait dengan nomor pengirim ini.');
+    }
+    
+    if (!orderData[senderNumber].reffId === reffId) {
+        return msg.reply('Tidak ada transaksi yang terkait dengan kode pembayaran ini.');
+    }
+
+    const payId = orderData[senderNumber].payId;
+
+    axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
+        id: payId,
+        api_key: config.api.secret_key,
+    })
+    .then(() => {
+        delete orderData[senderNumber];
+
+        fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+
+        msg.reply(`⚠️ Pembayaran dengan reffId ${reffId} dan payId ${payId} telah dibatalkan.`);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        msg.reply('Gagal membatalkan deposit. Silakan coba lagi atau laporkan masalah ini ke owner bot.');
+    });
+
+    break;
+}
+
+            case 'buy': {
+                if (!(isOwner || isMe)) return msg.reply('❌ Kamu tidak memiliki izin untuk menggunakan fitur ini.');
+
+                const params = query.split(',').map(param => param.trim());
+                const [code, ...targets] = params;
+                const target = targets.join(',');
+
+                if (!code || !target) {
+                    return msg.reply(`Semua parameter (code, target) diperlukan.\n\nContoh: ${prefix}${command} ML3,628299715|10135`);
+                };
+
+                const reffId = generateRandomText(10);
+
+                try {
+                    const response = await axios.post(`${config.api.base_url}/api/h2h/transaction/create`, {
+                        reff_id: reffId,
+                        product_code: code.toUpperCase(),
+                        target: target,
+                        api_key: config.api.secret_key
+                    });
+
+                    const data = response.data;
+
+                    if (!data.data) return msg.reply(data.message);
+
+                    const text = `Pembelian sedang di prosess:\n\nLayanan: ${data.data.name}\nTarget: ${data.data.target}\nReff id: ${data.data.reff_id}\nNominal: Rp ${toRupiah(data.data.price)}\nSN: ${data.data.serial_number}\nDibuat pada: ${data.data.date}`;
+                    client.sendMessage(jid, {
+                        text: text
+                    }, {
+                        quoted: msg
+                    }).then(sentMessage => {
+                        checkTransactionStatus(data.data.id, sentMessage.key.id);
+
+                        setTimeout(() => {
+                            client.sendMessage(jid, {
+                                delete: {
+                                    remoteJid: jid,
+                                    fromMe: true,
+                                    id: sentMessage.key.id
+                                }
+                            });
+                        }, 300000);
+                    });
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    msg.reply('Saldo tidak cukup!');
+                }
+
+                async function checkTransactionStatus(id, messageId) {
+                    const interval = setInterval(async () => {
+                        const response = await axios.post(`${config.api.base_url}/api/h2h/transaction/status`, {
+                            id: id,
+                            api_key: config.api.secret_key
+                        });
+
+                        const data = response.data;
+
+                        if (data.data.status === 'success') {
+                            clearInterval(interval);
+                            clearTimeout(timeout);
+                            msg.reply(`⬣ *Pembelian Berhasil!*\n\n` +
+                                `◉ ID Pembayaran: ${data.data.reff_id}\n` +
+                                `◉ Status: ${data.data.status}\n` +
+                                `◉ Layanan: ${data.data.name}\n` +
+                                `◉ Target: ${data.data.target}\n` +
+                                `◉ Serial Number: ${data.data.serial_number}\n` +
+                                `◉ Tanggal: ${data.data.date}\n\n` +
+                                `Terimakasih.`);
+                            client.sendMessage(jid, {
+                                delete: {
+                                    remoteJid: jid,
+                                    fromMe: true,
+                                    id: messageId
+                                }
+                            });
+                        } else if (data.data.status === 'failed') {
+                            clearInterval(interval);
+                            msg.reply(`Sangat Disayangkan Sekali. Pembayaran Kamu Dibatalkan Oleh Sistem.`);
+                        }
+                    }, 5000);
+
+                }
+
+                break;
+            }
+
+            // Deposit
+            case 'deposit':
+            case 'depo': {
+                if (!(isOwner || isMe)) return msg.reply('❌ Kamu tidak memiliki izin untuk menggunakan fitur ini.');
+
+                if (!query) return msg.reply(`Example: ${prefix}${command} 500.`);
+                const nominal = query;
+                if (nominal < 500) return msg.reply('Jumlah minimal: 500.');
+
+                const reffId = generateRandomText(10);
+
+                try {
+                    const response = await axios.post(`${config.api.base_url}/api/h2h/deposit/create`, {
+                        reff_id: reffId,
+                        type: 'ewallet',
+                        method: 'QRISFAST',
+                        nominal: nominal,
+                        api_key: config.api.secret_key
+                    });
+
+                    const data = response.data;
+
+                    if (!data.data) return msg.reply(data.message);
+
+                    const text = `Reff id: ${data.data.reff_id}\nNominal: Rp ${toRupiah(data.data.nominal)}\nFee: Rp ${toRupiah(data.data.fee)}\nDiterima: Rp ${toRupiah(data.data.get_balance)}\nDibuat pada: ${data.data.created_at}\n\nNote: Pembayaran akan otomatis dibatalkan 5 menit lagi!`;
+                    client.sendMessage(jid, {
+                        image: {
+                            url: data.data.qr_image_url
+                        },
+                        caption: text
+                    }, {
+                        quoted: msg
+                    }).then(sentMessage => {
+                        checkPaymentStatus(data.data.id, sentMessage.key.id);
+
+                        setTimeout(() => {
+                            client.sendMessage(jid, {
+                                delete: {
+                                    remoteJid: jid,
+                                    fromMe: true,
+                                    id: sentMessage.key.id
+                                }
+                            });
+                        }, 300000);
+                    });
+
+                    async function checkPaymentStatus(id, messageId) {
+                        const interval = setInterval(async () => {
+                            const response = await axios.post(`${config.api.base_url}/api/h2h/deposit/status`, {
+                                id: id,
+                                api_key: config.api.secret_key
+                            });
+
+                            const data = response.data;
+
+                            if (data.data.status === 'success') {
+                                clearInterval(interval);
+                                clearTimeout(timeout);
+                                msg.reply(`⬣ *Pembayaran Berhasil!*\n\n` +
+                                    `◉ ID Pembayaran: ${data.data.reff_id}\n` +
+                                    `◉ Status: ${data.data.status}\n` +
+                                    `◉ Diterima: ${toRupiah(data.data.get_balance)}\n` +
+                                    `◉ Tanggal: ${data.data.date}\n\n` +
+                                    `Terimakasih.`);
+                                client.sendMessage(jid, {
+                                    delete: {
+                                        remoteJid: jid,
+                                        fromMe: true,
+                                        id: messageId
+                                    }
+                                });
+                            } else if (data.data.status === 'failed') {
+                                clearInterval(interval);
+                                msg.reply(`Sangat Disayangkan Sekali. Pembayaran Kamu Dibatalkan Oleh Sistem.`);
+                            }
+                        }, 5000);
+
+                        const timeout = setTimeout(async () => {
+                            clearInterval(interval);
+                            const response = await axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
+                                id: id,
+                                api_key: config.api.secret_key
+                            });
+
+                            const data = response.data;
+
+                            if (!data.data) return msg.reply(data.message);
+                            msg.reply(`⚠️ *Pembayaran Dibatalkan Otomatis* setelah 5 menit tanpa konfirmasi keberhasilan.`);
+                        }, 300000);
+                    }
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    msg.reply('Terjadi kesalahan, silahkan coba lagi nanti.');
+                }
+                break;
+            }
+
+            // Transfer
+            case 'transfer':
+            case 'wd_balance':
+            case 'wd': {
+                if (!(isOwner || isMe)) return msg.reply('❌ Kamu tidak memiliki izin untuk menggunakan fitur ini.');
+
+                if (!query) return msg.reply(`Example: ${prefix}${command} 3000.`);
+                const nominal = query;
+                if (nominal < 3000) return msg.reply('Jumlah minimal: 3000.');
+
+                const reffId = generateRandomText(10);
+
+                try {
+                    const response = await axios.post(`${config.api.base_url}/api/h2h/transfer/create`, {
+                        reff_id: reffId,
+                        bank_code: 'DANA',
+                        account_number: config.api.dana.number,
+                        owner_name: config.api.dana.name,
+                        email_address: config.api.dana.email,
+                        phone_number: config.api.dana.number,
+                        note: 'Withdraw Saldo',
+                        nominal: nominal,
+                        api_key: config.api.secret_key
+                    });
+
+                    const data = response.data;
+
+                    console.log(data.message);
+
+                    if (!data.data) return msg.reply(data.message);
+
+                    const text = `Reff id: ${data.data.reff_id}\nNama: ${data.data.name}\nNo DANA: ${data.data.number}\nNominal: Rp ${toRupiah(data.data.nominal)}\nFee: Rp ${toRupiah(data.data.fee)}\nTotal: Rp ${toRupiah(data.data.total)}\nDibuat pada: ${data.data.date}`;
+                    client.sendMessage(jid, {
+                        text: text
+                    }, {
+                        quoted: msg
+                    }).then(sentMessage => {
+                        checkPaymentStatus(data.data.id, sentMessage.key.id);
+
+                    });
+
+                    async function checkPaymentStatus(id, messageId) {
+                        const interval = setInterval(async () => {
+                            const response = await axios.post(`${config.api.base_url}/api/h2h/transfer/status`, {
+                                id: id,
+                                api_key: config.api.secret_key
+                            });
+
+                            const data = response.data;
+
+                            if (data.data.status == 'success') {
+                                clearInterval(interval);
+                                msg.reply('Berhasil melakukan transfer.');
+                            } else if (data.data.status == 'failed') {
+                                clearInterval(interval);
+                                msg.reply('Gagal melakukan transfer.');
+                            }
+                        }, 5000);
+
+                    }
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    msg.reply('Saldo tidak cukup!');
+                }
+                break;
+            }
+
+            // Profile
+            case 'check_balance':
+            case 'cek_saldo': {
+                if (!(isOwner || isMe)) return msg.reply('❌ Kamu tidak memiliki izin untuk menggunakan fitur ini.');
+
+                const response = await axios.post(`${config.api.base_url}/api/h2h/get-profile/balance`, {
+                    api_key: config.api.secret_key
+                });
+
+                const data = response.data;
+                msg.reply(`Jumlah saldo anda: Rp ${toRupiah(data.data.balance)}`);
+                break;
+            }
+
+            /* End Features area */
+
+            /*default: {
+                msg.reply('Perintah tidak dikenali. Gunakan .menu untuk melihat daftar perintah.');
+            }*/
+        }
+    } catch (error) {
+        console.error(error);
+    }
+};
