@@ -725,7 +725,7 @@ case 'topup': {
                                     `◉ ID Pembayaran: ${data.reff_id}\n` +
                                     `◉ Status: ${data.status}\n` +
                                     `◉ Diterima: ${toRupiah(data.get_balance)}\n` +
-                                    `◉ Tanggal: ${data.created_at}\n\n` +
+                                    `◉ Tanggal: ${data.date}\n\n` +
                                     `Terimakasih.`);
                     } else if (data.status === 'failed' || data.status === 'cancel' || data.status === 'canceled') {
                     	clearInterval(interval);
@@ -906,7 +906,7 @@ function performTopupTransaction(reffId, code, target) {
                                         `◉ ID Pembayaran: ${data.reff_id}\n` +
                                         `◉ Status: ${data.status}\n` +
                                         `◉ Diterima: ${toRupiah(data.get_balance)}\n` +
-                                        `◉ Tanggal: ${data.created_at}\n\n` +
+                                        `◉ Tanggal: ${data.date}\n\n` +
                                         `Terimakasih.`);
 
                                     client.sendMessage(jid, {
