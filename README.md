@@ -1,96 +1,128 @@
-# WA Bot Topup
+# WhatsApp Bot Topup Otomatis - Baileys & Forest API
+## Fitur
+1. Game Populer (ML, FF, dll.)
+2. Data Internet (by.U, Tsel, dll.)
+3. Pulsa Reguler & Transfer (Isat, Tri, dll.)
+4. Order
+5. Cancel Order
+6. Deposit
+7. Transfer
+8. Check Balance
+9. Withdraw Balance
 
-WA Bot Topup is a WhatsApp bot that allows users to perform automated top-up transactions.
-
-## Prerequisites
-
-Before getting started, ensure that you have the following software installed on your system:
-
-- **Node.js**: Required to run the server application.
-- **Yarn**: An alternative package manager for Node.js.
-- **Nodemon**: A tool for automatically restarting the application when files change.
-
-## Installation
-
-### 1. Installation on Desktop and VPS
-
-#### Install Node.js
-- Download and install Node.js from the official site: [https://nodejs.org/](https://nodejs.org/)
-- Once installed, verify the installation by running the following command in your terminal:
-  ```bash
-  node -v
+## Instalasi
+### Instal Perangkat Lunak/Paket-Paket
+#### Untuk Linux
+```bash
+sudo apt-get install nodejs
+sudo apt-get install git
+sudo apt-get install npm
+sudo apt-get install yarn
 ```
 
-  This should output the version of Node.js installed.
+#### Untuk Windows
+```bash
+choco install nodejs
+choco install git
+choco install npm
+choco install yarn
+```
 
-#### Install Yarn
-Yarn is an alternative package manager for Node.js. To install it, use the following command:
-  ```bash
-  npm install --global yarn
-  ```
-- After installation, verify by running:
-  ```bash
-  yarn -v
-  ```
-  This should output the version of Yarn installed.
+#### Untuk MacOS
+```bash
+brew install node
+brew install git
+brew install npm
+brew install yarn
+```
 
-#### Install Nodemon
-Nodemon is used to automatically restart your Node.js application whenever there are file changes.
-- Install Nodemon globally by running the following command:
-  ```bash
-  npm install -g nodemon
-  ```
-- Verify the installation by running:
-  ```bash
-  nodemon -v
-  ```
-  This should output the version of Nodemon installed.
+#### Untuk Android (Termux)
+```bash
+pkg install nodejs
+pkg install git
+pkg install npm
+pkg install yarn
+```
 
-### 2. Installation on Android and iOS
+### Download/Klon Proyek
+```bash
+git clone https://github.com/dani-techno/wa-bot-topup.git
+```
 
-Installing Node.js, Yarn, and Nodemon directly on Android and iOS devices is not officially supported. However, you can use terminal apps like **Termux** on Android or **a-Shell** on iOS to run a Linux-based environment and install these tools.
+### Pindah Direktori (CD)
+```bash
+cd wa-bot-topup
+```
 
-- **Android**: Use the app [Termux](https://termux.com/).
-- **iOS**: Use the app [a-Shell](https://github.com/holzschu/a-Shell).
+### Application Programming Interface (API)
+#### Dapatkan Kunci API
+Daftar dan dapatkan kunci API:
+<a href="https://forestapi.web.id">https://forestapi.web.id</a>
 
-### 3. Installing the Project
+#### Edit ./config.js > api
+```javascript
+api: {
+  ...
+  secret_key: 'Your-API-Key' // Registrasi disini: https://forestapi.web.id
+}
+```
 
-Once the required software is installed, follow these steps to set up the project:
+### Instal Dependensi
+#### Menggunakan Npm
+```bash
+npm install
+```
+#### Atau Menggunakan Yarn
+```bash
+yarn install
+```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/dani-techno/wa-bot-topup.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd wa-bot-topup
-   ```
-3. Install the project dependencies using Yarn:
-   ```bash
-   yarn install
-   ```
+### Instal Nodemon
+#### Menggunakan Npm
+```bash
+npm install nodemon -g
+```
+#### Atau Menggunakan Yarn
+```bash
+yarn install nodemon -g
+```
 
-### 4. Getting an API Key from ForestAPI
-
-The project interacts with [ForestAPI](https://forestapi.web.id) for top-up transactions. ForestAPI does not require an API key, so you can directly access the available endpoints without registering.
-
-- Visit [ForestAPI](https://forestapi.web.id) for more information on how to use their services.
-
-### 5. Running the Project
-
-Once all dependencies are installed, you can run the application using **Npm**. Run the following command in your terminal:
+### Jalankan Server
+#### Menggunakan Npm
 ```bash
 npm run start
 ```
 
-### 6. Using Nodemon
-
-Nodemon automatically restarts the application whenever you make changes to the files. Simply run the following command in the project directory:
+#### Atau Menggunakan Yarn
 ```bash
-nodemon index.js
+yarn run start
 ```
 
-### 7. Reference Links
+#### Atau Menggunakan Node
+```bash
+node run start
+```
 
-- Nodemon Documentation: [https://www.npmjs.com/package/nodemon](https://www.npmjs.com/package/nodemon)
-- ForestAPI Site: [https://forestapi.web.id](https://forestapi.web.id)
+#### Atau Menggunakan Bun
+```bash
+bun run start
+```
+
+### Jalankan Server (Auto Restart)
+#### Menggunakan Nodemon
+```bash
+nodemon run start
+```
+
+```bash
+bun run start
+```
+
+## Informasi
+* Pembuat / Pengembang: Dani Technology - Full Stack Engineer
+* Kontak Pembuat / Pengembang: +62 838-3499-4479 or +62 823-2066-7363 (WhatsApp), dani.technology.id@gmail.com (Email)
+
+## Terimakasih Kepada
+* Dani Technology - Full Stack Engineer (Pembuat / Pengembang)
+* Forest API | <a href="https://forestapi.web.id">www.forestapi.web.id</a> (Penyedia API)
+* @whiskeysockets/baileys (Penyedia Library "Baileys")
