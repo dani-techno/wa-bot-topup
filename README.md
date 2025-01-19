@@ -1,5 +1,4 @@
-# WhatsApp Bot
-Topup Otomatis - Baileys & Forest API
+## WhatsApp Bot Topup Otomatis - Baileys & Forest API
 
 ## Fitur
 1. Game Populer (ML, FF, dll.)
