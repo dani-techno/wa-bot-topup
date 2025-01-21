@@ -1215,7 +1215,7 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
                                         id: messageId
                                     }
                                 });
-                            } else if (data.data.status === 'failed') {
+                            } else if (data.data.status === 'failed' || data.data.status === 'cancel') {
                                 clearInterval(interval);
                                 msg.reply(`Sangat Disayangkan Sekali. Pembayaran Kamu Dibatalkan Oleh Sistem.`);
                             }
@@ -1236,7 +1236,7 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
                     }
                 } catch (error) {
                     console.error('Error fetching data:', error);
-                    msg.reply('Terjadi kesalahan, silahkan coba lagi nanti.');
+                    msg.reply(`Kamu masih memiliki 5 deposit yang belum selesai (Pending). Tunggu hingga pembayaran selesai, kadaluarsa, atau gagal untuk membuat transaksi baru. \n\n_Ingin membatalkan deposit? kunjungi *${config.api.base_url}/reports*_`);
                 }
                 break;
             }
