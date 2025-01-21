@@ -1,11 +1,11 @@
 /**
-* Made by: Dani Technology (Full Stack Engineer)
-* Created on: January 10, 2024
-* Contact developer:
-* - WhatsApp: +62 838-3499-4479 or +62 823-2066-7363
-* - Email: dani.technology.id@gmail.com
-* - GitHub: https://github.com/dani-techno
-*/
+ * Made by: Dani Technology (Full Stack Engineer)
+ * Created on: January 10, 2024
+ * Contact developer:
+ * - WhatsApp: +62 838-3499-4479 or +62 823-2066-7363
+ * - Email: dani.technology.id@gmail.com
+ * - GitHub: https://github.com/dani-techno
+ */
 
 const chalk = require('chalk');
 const fs = require('fs');
@@ -158,38 +158,38 @@ module.exports = async (socket, messages, memoryStore) => {
     /*if (!body.startsWith(config.prefix) || body === config.prefix) {
         return;
     }*/
-    
+
     const tmpFilePath = path.join(__dirname, 'tmp', 'orders.json');
 
-setInterval(() => {
-    if (fs.existsSync(tmpFilePath)) {
-        const orderData = JSON.parse(fs.readFileSync(tmpFilePath, 'utf8'));
+    setInterval(() => {
+        if (fs.existsSync(tmpFilePath)) {
+            const orderData = JSON.parse(fs.readFileSync(tmpFilePath, 'utf8'));
 
-        Object.keys(orderData).forEach(key => {
-            const createdAt = new Date(orderData[key].createdAt).getTime();
-            const currentTime = Date.now();
+            Object.keys(orderData).forEach(key => {
+                const createdAt = new Date(orderData[key].createdAt).getTime();
+                const currentTime = Date.now();
 
-            if (currentTime - createdAt > 300000) {
-                const payId = orderData[key].payId;
+                if (currentTime - createdAt > 300000) {
+                    const payId = orderData[key].payId;
 
-                axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
-                    id: payId,
-                    api_key: config.api.secret_key,
-                })
-                .then(() => {
-                    delete orderData[key];
-                    fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
-                    console.log(`Pembayaran dengan ID ${payId} dibatalkan karena sudah lebih dari 5 menit.`);
-                })
-                .catch(err => {
-                    console.error(`Gagal membatalkan pembayaran dengan ID ${payId}:`, err);
-                });
-            }
-        });
+                    axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
+                            id: payId,
+                            api_key: config.api.secret_key,
+                        })
+                        .then(() => {
+                            delete orderData[key];
+                            fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+                            console.log(`Pembayaran dengan ID ${payId} dibatalkan karena sudah lebih dari 5 menit.`);
+                        })
+                        .catch(err => {
+                            console.error(`Gagal membatalkan pembayaran dengan ID ${payId}:`, err);
+                        });
+                }
+            });
 
-        fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
-    }
-}, 5000);
+            fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+        }
+    }, 5000);
 
     try {
         switch (command) {
@@ -220,7 +220,7 @@ setInterval(() => {
             }
 
             /* Features area */
-            
+
             case 'owner_menu':
             case 'menu_owner': {
                 if (!(isOwner || isMe)) return msg.reply('❌ Kamu tidak memiliki izin untuk menggunakan fitur ini.');
@@ -358,6 +358,7 @@ Ketik *${prefix}search <name>* atau *${prefix}search_by_code <code>* untuk menca
                 break;
             }
 
+            case 'mlbb':
             case 'ml':
             case 'ml_wdp':
             case 'ml_sl':
@@ -597,14 +598,14 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
             }
 
             // Orders
-case 'order':
-case 'topup': {
-    const params = query.split(',').map(param => param.trim());
-    const [code, ...targets] = params;
-    const target = targets.join('|');
+            case 'order':
+            case 'topup': {
+                const params = query.split(',').map(param => param.trim());
+                const [code, ...targets] = params;
+                const target = targets.join('|');
 
-    if (!code || !target) {
-        return msg.reply(`Semua parameter (code, target) diperlukan.\n\n*PETUNJUK PENGGUNAAN*
+                if (!code || !target) {
+                    return msg.reply(`Semua parameter (code, target) diperlukan.\n\n*PETUNJUK PENGGUNAAN*
 
 \`Produk game\`
 - Format order: ${prefix}${command} KODE,ID
@@ -617,126 +618,132 @@ case 'topup': {
 \`Produk lainnya\`
 - Format order: ${prefix}${command} KODE,TUJUAN
 - Contoh: ${prefix}${command} S100,082320667363`);
-    }
-
-    const reffId = generateRandomText(10);
-    const senderNumber = msg.sender.split('@')[0];
-    const tmpFilePath = path.join(__dirname, 'tmp', 'orders.json');
-
-    let orderData = {};
-    if (fs.existsSync(tmpFilePath)) {
-        orderData = JSON.parse(fs.readFileSync(tmpFilePath, 'utf8'));
-    }
-
-    if (orderData[senderNumber]) {
-        return msg.reply(
-            `Kamu masih memiliki transaksi yang belum selesai. Tunggu hingga pembayaran selesai, kadaluarsa, atau gagal untuk membuat transaksi baru.\n\n_Ingin membatalkan topup? ketik *${prefix}cancel PAYID*_`
-        );
-    }
-    
-    const date = new Date();
-    const currentDate = new Date(date.toLocaleString('en-US', { timeZone: config.time_zone }));
-    
-    axios.post(`${config.api.base_url}/api/h2h/price-list/all`, {
-        api_key: config.api.secret_key,
-    })
-        .then(response => {
-            const data = response.data;
-            if (!data.data) return msg.reply(data.message);
-
-            const produk = data.data.find(item => item.code === code.toUpperCase());
-            if (!produk) return msg.reply('Produk tidak ditemukan.');
-
-            const profit = (config.api.profit / 100) * produk.price;
-            const finalPrice = Number(produk.price) + Math.ceil(profit);
-            const produkDetail = `*Nama Produk:* ${produk.name}\n*Kode Produk:* ${produk.code}`;
-
-            performDeposit(reffId, produkDetail, finalPrice, code, target);
-        })
-        .catch(error => {
-            msg.reply('Transaksi gagal dibuat. Silahkan laporkan masalah ini ke owner bot.');
-            console.error('Error:', error);
-        });
-
-    function performDeposit(reffId, product, nominal, code, target) {
-        axios.post(`${config.api.base_url}/api/h2h/deposit/create`, {
-            reff_id: reffId,
-            type: 'ewallet',
-            method: 'QRISFAST',
-            nominal: nominal,
-            api_key: config.api.secret_key,
-        })
-            .then(response => {
-                const data = response.data;
-                if (!data.data) return msg.reply(data.message);
-
-                orderData[senderNumber] = {
-                    reffId,
-                    payId: data.data.id,
-                    createdAt: data.data.created_at
-                };
-                fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
-
-                const text = `*TRANSAKSI BERHASIL DIBUAT*\n\n*Kode Pembayaran:* ${data.data.reff_id}\n*Nominal:* Rp ${toRupiah(data.data.nominal)}\n${product}\n*Dibuat Pada:* ${data.data.created_at}\n\n*Note:* Pembayaran akan otomatis dibatalkan 5 menit lagi!\n\n\`Bot ini telah terintegrasi dengan API yang disediakan oleh ${config.api.base_url}\``;
-
-                client.sendMessage(jid, {
-                    image: { url: data.data.qr_image_url },
-                    caption: text,
-                }, { quoted: msg });
-
-                checkPaymentStatus(data.data.id, reffId, code, target);
-            })
-            .catch(error => console.error('Error:', error));
-    }
-
-    function checkPaymentStatus(payId, reffId, code, target) {
-    const timeout = setTimeout(() => {
-        clearInterval(interval);
-
-        axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
-            id: payId,
-            api_key: config.api.secret_key,
-        })
-            .then(() => {
-                delete orderData[senderNumber];
-                fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
-                msg.reply('⚠️ *Pembayaran Dibatalkan Otomatis* setelah 5 menit tanpa konfirmasi keberhasilan.');
-            });
-    }, 300000);
-
-    const interval = setInterval(() => {
-        axios.post(`${config.api.base_url}/api/h2h/deposit/status`, {
-            id: payId,
-            api_key: config.api.secret_key,
-        })
-            .then(response => {
-                const data = response.data.data;
-
-                if (data.status === 'success' || data.status === 'failed') {
-                    clearInterval(interval);
-                    clearTimeout(timeout);
-
-                    delete orderData[senderNumber];
-                    fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
-
-                    if (data.status === 'success') {
-                        performTopupTransaction(reffId, code, target);
-                        msg.reply(`⬣ *Pembayaran Berhasil!*\n\n` +
-                                    `◉ ID Pembayaran: ${data.reff_id}\n` +
-                                    `◉ Status: ${data.status}\n` +
-                                    `◉ Diterima: ${toRupiah(data.get_balance)}\n` +
-                                    `◉ Tanggal: ${data.date}\n\n` +
-                                    `Terimakasih.`);
-                    } else if (data.status === 'failed' || data.status === 'cancel' || data.status === 'canceled') {
-                    	clearInterval(interval);
-                        return msg.reply('Sangat disayangkan sekali. Pembayaran kamu dibatalkan oleh sistem.');
-                    }
                 }
-            });
-    }, 5000);
-}
 
-function performTopupTransaction(reffId, code, target) {
+                const reffId = generateRandomText(10);
+                const senderNumber = msg.sender.split('@')[0];
+                const tmpFilePath = path.join(__dirname, 'tmp', 'orders.json');
+
+                let orderData = {};
+                if (fs.existsSync(tmpFilePath)) {
+                    orderData = JSON.parse(fs.readFileSync(tmpFilePath, 'utf8'));
+                }
+
+                if (orderData[senderNumber]) {
+                    return msg.reply(
+                        `Kamu masih memiliki transaksi yang belum selesai. Tunggu hingga pembayaran selesai, kadaluarsa, atau gagal untuk membuat transaksi baru.\n\n_Ingin membatalkan topup? ketik *${prefix}cancel PAYID*_`
+                    );
+                }
+
+                const date = new Date();
+                const currentDate = new Date(date.toLocaleString('en-US', {
+                    timeZone: config.time_zone
+                }));
+
+                axios.post(`${config.api.base_url}/api/h2h/price-list/all`, {
+                        api_key: config.api.secret_key,
+                    })
+                    .then(response => {
+                        const data = response.data;
+                        if (!data.data) return msg.reply(data.message);
+
+                        const produk = data.data.find(item => item.code === code.toUpperCase());
+                        if (!produk) return msg.reply('Produk tidak ditemukan.');
+
+                        const profit = (config.api.profit / 100) * produk.price;
+                        const finalPrice = Number(produk.price) + Math.ceil(profit);
+                        const produkDetail = `*Nama Produk:* ${produk.name}\n*Kode Produk:* ${produk.code}`;
+
+                        performDeposit(reffId, produkDetail, finalPrice, code, target);
+                    })
+                    .catch(error => {
+                        msg.reply('Transaksi gagal dibuat. Silahkan laporkan masalah ini ke owner bot.');
+                        console.error('Error:', error);
+                    });
+
+                function performDeposit(reffId, product, nominal, code, target) {
+                    axios.post(`${config.api.base_url}/api/h2h/deposit/create`, {
+                            reff_id: reffId,
+                            type: 'ewallet',
+                            method: 'QRISFAST',
+                            nominal: nominal,
+                            api_key: config.api.secret_key,
+                        })
+                        .then(response => {
+                            const data = response.data;
+                            if (!data.data) return msg.reply(data.message);
+
+                            orderData[senderNumber] = {
+                                reffId,
+                                payId: data.data.id,
+                                createdAt: data.data.created_at
+                            };
+                            fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+
+                            const text = `*TRANSAKSI BERHASIL DIBUAT*\n\n*Kode Pembayaran:* ${data.data.reff_id}\n*Nominal:* Rp ${toRupiah(data.data.nominal)}\n${product}\n*Dibuat Pada:* ${data.data.created_at}\n\n*Note:* Pembayaran akan otomatis dibatalkan 5 menit lagi!\n\n\`Bot ini telah terintegrasi dengan API yang disediakan oleh ${config.api.base_url}\``;
+
+                            client.sendMessage(jid, {
+                                image: {
+                                    url: data.data.qr_image_url
+                                },
+                                caption: text,
+                            }, {
+                                quoted: msg
+                            });
+
+                            checkPaymentStatus(data.data.id, reffId, code, target);
+                        })
+                        .catch(error => console.error('Error:', error));
+                }
+
+                function checkPaymentStatus(payId, reffId, code, target) {
+                    const timeout = setTimeout(() => {
+                        clearInterval(interval);
+
+                        axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
+                                id: payId,
+                                api_key: config.api.secret_key,
+                            })
+                            .then(() => {
+                                delete orderData[senderNumber];
+                                fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+                                msg.reply('⚠️ *Pembayaran Dibatalkan Otomatis* setelah 5 menit tanpa konfirmasi keberhasilan.');
+                            });
+                    }, 300000);
+
+                    const interval = setInterval(() => {
+                        axios.post(`${config.api.base_url}/api/h2h/deposit/status`, {
+                                id: payId,
+                                api_key: config.api.secret_key,
+                            })
+                            .then(response => {
+                                const data = response.data.data;
+
+                                if (data.status === 'success' || data.status === 'failed') {
+                                    clearInterval(interval);
+                                    clearTimeout(timeout);
+
+                                    delete orderData[senderNumber];
+                                    fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+
+                                    if (data.status === 'success') {
+                                        performTopupTransaction(reffId, code, target);
+                                        msg.reply(`⬣ *Pembayaran Berhasil!*\n\n` +
+                                            `◉ ID Pembayaran: ${data.reff_id}\n` +
+                                            `◉ Status: ${data.status}\n` +
+                                            `◉ Diterima: ${toRupiah(data.get_balance)}\n` +
+                                            `◉ Tanggal: ${data.date}\n\n` +
+                                            `Terimakasih.`);
+                                    } else if (data.status === 'failed' || data.status === 'cancel' || data.status === 'canceled') {
+                                        clearInterval(interval);
+                                        return msg.reply('Sangat disayangkan sekali. Pembayaran kamu dibatalkan oleh sistem.');
+                                    }
+                                }
+                            });
+                    }, 5000);
+                }
+
+                function performTopupTransaction(reffId, code, target) {
                     axios.post(`${config.api.base_url}/api/h2h/transaction/create`, {
                             reff_id: reffId,
                             product_code: code.toUpperCase(),
@@ -796,8 +803,8 @@ function performTopupTransaction(reffId, code, target) {
                             });
                     }, 5000);
                 }
-    break;
-}
+                break;
+            }
 
             case 'order2':
             case 'topup2': {
@@ -855,7 +862,7 @@ function performTopupTransaction(reffId, code, target) {
                         })
                         .then(response => {
                             const data = response.data;
-                            
+
                             if (!data.data) return msg.reply(data.message);
 
                             const text = `*TRANSAKSI BERHASIL DIBUAT*\n\n*Kode Pembayaran:* ${data.data.reff_id}\n*Nominal:* Rp ${toRupiah(data.data.nominal)}\n${product}\n*Dibuat Pada:* ${data.data.created_at}\n\n*Note:* Pembayaran akan otomatis dibatalkan 5 menit lagi!\n\n\`Bot ini telah terintegrasi dengan API yang disediakan oleh ${config.api.base_url}\``;
@@ -895,7 +902,7 @@ function performTopupTransaction(reffId, code, target) {
                             })
                             .then(response => {
                                 const data = response.data.data;
-                                
+
                                 if (data.status === 'success') {
                                     clearInterval(interval);
                                     clearTimeout(timeout);
@@ -1004,52 +1011,52 @@ function performTopupTransaction(reffId, code, target) {
                 }
                 break;
             }
-            
+
             case 'cancel': {
-    const params = query.split(',').map(param => param.trim());
-    const [reffId] = params;
+                const params = query.split(',').map(param => param.trim());
+                const [reffId] = params;
 
-    if (!reffId) {
-        return msg.reply('Parameter `reffId` diperlukan untuk membatalkan deposit.\n\n*PETUNJUK PENGGUNAAN*\n\n' +
-                         `\`Format: ${prefix}${command} REFFID\`\n` +
-                         `\`Contoh: ${prefix}${command} ABC123456\``);
-    }
+                if (!reffId) {
+                    return msg.reply('Parameter `reffId` diperlukan untuk membatalkan deposit.\n\n*PETUNJUK PENGGUNAAN*\n\n' +
+                        `\`Format: ${prefix}${command} REFFID\`\n` +
+                        `\`Contoh: ${prefix}${command} ABC123456\``);
+                }
 
-    const tmpFilePath = path.join(__dirname, 'tmp', 'orders.json');
+                const tmpFilePath = path.join(__dirname, 'tmp', 'orders.json');
 
-    let orderData = {};
-    if (fs.existsSync(tmpFilePath)) {
-        orderData = JSON.parse(fs.readFileSync(tmpFilePath, 'utf8'));
-    }
-    
-    if (!orderData[senderNumber]) {
-        return msg.reply('Tidak ada transaksi yang terkait dengan nomor pengirim ini.');
-    }
-    
-    if (!orderData[senderNumber].reffId === reffId) {
-        return msg.reply('Tidak ada transaksi yang terkait dengan kode pembayaran ini.');
-    }
+                let orderData = {};
+                if (fs.existsSync(tmpFilePath)) {
+                    orderData = JSON.parse(fs.readFileSync(tmpFilePath, 'utf8'));
+                }
 
-    const payId = orderData[senderNumber].payId;
+                if (!orderData[senderNumber]) {
+                    return msg.reply('Tidak ada transaksi yang terkait dengan nomor pengirim ini.');
+                }
 
-    axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
-        id: payId,
-        api_key: config.api.secret_key,
-    })
-    .then(() => {
-        delete orderData[senderNumber];
+                if (!orderData[senderNumber].reffId === reffId) {
+                    return msg.reply('Tidak ada transaksi yang terkait dengan kode pembayaran ini.');
+                }
 
-        fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+                const payId = orderData[senderNumber].payId;
 
-        msg.reply(`⚠️ Pembayaran dengan reffId ${reffId} dan payId ${payId} telah dibatalkan.`);
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        msg.reply('Gagal membatalkan deposit. Silakan coba lagi atau laporkan masalah ini ke owner bot.');
-    });
+                axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
+                        id: payId,
+                        api_key: config.api.secret_key,
+                    })
+                    .then(() => {
+                        delete orderData[senderNumber];
 
-    break;
-}
+                        fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+
+                        msg.reply(`⚠️ Pembayaran dengan reffId ${reffId} dan payId ${payId} telah dibatalkan.`);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        msg.reply('Gagal membatalkan deposit. Silakan coba lagi atau laporkan masalah ini ke owner bot.');
+                    });
+
+                break;
+            }
 
             case 'buy': {
                 if (!(isOwner || isMe)) return msg.reply('❌ Kamu tidak memiliki izin untuk menggunakan fitur ini.');
