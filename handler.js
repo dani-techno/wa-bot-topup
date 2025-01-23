@@ -171,14 +171,15 @@ module.exports = async (socket, messages, memoryStore) => {
 
                 if (currentTime - createdAt > 300000) {
                     const payId = orderData[key].payId;
-
+                    
+                    delete orderData[key];
+                    fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
+                            
                     axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
                             id: payId,
                             api_key: config.api.secret_key,
                         })
                         .then(() => {
-                            delete orderData[key];
-                            fs.writeFileSync(tmpFilePath, JSON.stringify(orderData, null, 2));
                             console.log(`Pembayaran dengan ID ${payId} dibatalkan karena sudah lebih dari 5 menit.`);
                         })
                         .catch(err => {
@@ -1117,7 +1118,6 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
 
                         if (data.data.status === 'success') {
                             clearInterval(interval);
-                            clearTimeout(timeout);
                             msg.reply(`⬣ *Pembelian Berhasil!*\n\n` +
                                 `◉ ID Pembayaran: ${data.data.reff_id}\n` +
                                 `◉ Status: ${data.data.status}\n` +
@@ -1256,11 +1256,11 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
                 try {
                     const response = await axios.post(`${config.api.base_url}/api/h2h/transfer/create`, {
                         reff_id: reffId,
-                        bank_code: 'DANA',
-                        account_number: config.api.dana.number,
-                        owner_name: config.api.dana.name,
-                        email_address: config.api.dana.email,
-                        phone_number: config.api.dana.number,
+                        bank_code: config.api.withdrawal_purpose.bank,
+                        account_number: config.api.withdrawal_purpose.number,
+                        owner_name: config.api.withdrawal_purpose.name,
+                        email_address: config.api.withdrawal_purpose.email,
+                        phone_number: config.api.withdrawal_purpose.number,
                         note: 'Withdraw Saldo',
                         nominal: nominal,
                         api_key: config.api.secret_key
