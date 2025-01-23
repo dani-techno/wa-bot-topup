@@ -25,7 +25,7 @@ module.exports = {
 		base_url: 'https://forestapi.web.id', // Do not change this URL.
     	secret_key: 'YOUR_API_KEY',
     	withdrawal_purpose: {
-    		bank' DANA',
+    		bank: 'DANA',
     		name: 'DANI RAMDANI',
     		number: '082320667363',
     		email: 'daniramdani310807@gmail.com'
