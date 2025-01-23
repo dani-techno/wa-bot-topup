@@ -1256,11 +1256,11 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
                 try {
                     const response = await axios.post(`${config.api.base_url}/api/h2h/transfer/create`, {
                         reff_id: reffId,
-                        bank_code: config.api.withdrawal_purpose.bank,
-                        account_number: config.api.withdrawal_purpose.number,
-                        owner_name: config.api.withdrawal_purpose.name,
-                        email_address: config.api.withdrawal_purpose.email,
-                        phone_number: config.api.withdrawal_purpose.number,
+                        bank_code: config.api.wd_balance.bank_code,
+                        account_number: config.api.wd_balance.destination_number,
+                        owner_name: config.api.wd_balance.owner_name,
+                        email_address: config.api.wd_balance.email,
+                        phone_number: config.api.wd_balance.destination_number,
                         note: 'Withdraw Saldo',
                         nominal: nominal,
                         api_key: config.api.secret_key

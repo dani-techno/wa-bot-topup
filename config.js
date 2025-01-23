@@ -24,10 +24,10 @@ module.exports = {
 	api: {
 		base_url: 'https://forestapi.web.id', // Do not change this URL.
     	secret_key: 'YOUR_API_KEY',
-    	withdrawal_purpose: {
-    		bank: 'DANA',
-    		name: 'DANI RAMDANI',
-    		number: '082320667363',
+    	wd_balance: {
+    		bank_code: 'DANA',
+    		owner_name: 'DANI RAMDANI',
+    		destination_number: '082320667363',
     		email: 'daniramdani310807@gmail.com'
     	},
     	profit: 2 // This value will be divided by 100 and divided according to the product price.
