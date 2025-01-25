@@ -229,6 +229,7 @@ module.exports = async (socket, messages, memoryStore) => {
                 const menu = `*\`Hai ${senderName}\`*
 
 - ${prefix}buy <code,target>
+- ${prefix}deposit <nominal>
 - ${prefix}check_balance
 - ${prefix}wd_balance <nominal>
 `;
@@ -1291,10 +1292,10 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
 
                             const data = response.data;
 
-                            if (data.data.status == 'success') {
+                            if (data.data.status === 'success') {
                                 clearInterval(interval);
                                 msg.reply('Berhasil melakukan transfer.');
-                            } else if (data.data.status == 'failed') {
+                            } else if (data.data.status === 'failed' || data.data.status === 'cancel') {
                                 clearInterval(interval);
                                 msg.reply('Gagal melakukan transfer.');
                             }
@@ -1312,13 +1313,19 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
             case 'check_balance':
             case 'cek_saldo': {
                 if (!(isOwner || isMe)) return msg.reply('❌ Kamu tidak memiliki izin untuk menggunakan fitur ini.');
-
+                
+                try {
                 const response = await axios.post(`${config.api.base_url}/api/h2h/get-profile/balance`, {
                     api_key: config.api.secret_key
                 });
 
                 const data = response.data;
                 msg.reply(`Jumlah saldo anda: Rp ${toRupiah(data.data.balance)}`);
+                
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    msg.reply('Terjadi kesalahan, silahkan coba lagi nanti!');
+                }
                 break;
             }
 

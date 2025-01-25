@@ -8,7 +8,7 @@
 */
 
 module.exports = {
-	pairing_mode: true,
+	pairing_mode: false,
 	//prefix: '.', // Delete or disable section code "prefix: '?'," if the bot does not want to use prefix.
 	chat_mode: 'default', // default/self/private/group
 	connection_status_message: false,
