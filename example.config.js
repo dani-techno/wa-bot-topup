@@ -18,12 +18,12 @@ module.exports = {
 	automatic_read_messages: true,
 	automatic_update_profile_status: [false, "Status"],
 	automatic_typing_or_recording: [true, "typing"], // typing/recording
-	owner_number: '628xxx',
-	owner_name: 'Owner Name',
-	bot_name: 'Bot Name',
+	owner_number: '6282320667363',
+	owner_name: 'Dani Techno',
+	bot_name: 'Forest Bot',
 	api: {
 		base_url: 'https://forestapi.web.id', // Do not change this URL.
-    	secret_key: 'YOUR_API_KEY',
+    	secret_key: 'sk-danitechno',
     	wd_balance: {
     		bank_code: 'DANA',
     		owner_name: 'DANI RAMDANI',

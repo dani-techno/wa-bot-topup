@@ -1192,6 +1192,19 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
                     });
 
                     async function checkPaymentStatus(id, messageId) {
+                    	const timeout = setTimeout(async () => {
+                            clearInterval(interval);
+                            const response = await axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
+                                id: id,
+                                api_key: config.api.secret_key
+                            });
+
+                            const data = response.data;
+
+                            if (!data.data) return msg.reply(data.message);
+                            msg.reply(`⚠️ *Pembayaran Dibatalkan Otomatis* setelah 5 menit tanpa konfirmasi keberhasilan.`);
+                        }, 300000);
+                        
                         const interval = setInterval(async () => {
                             const response = await axios.post(`${config.api.base_url}/api/h2h/deposit/status`, {
                                 id: id,
@@ -1199,7 +1212,8 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
                             });
 
                             const data = response.data;
-
+                            
+                            console.log(data)
                             if (data.data.status === 'success') {
                                 clearInterval(interval);
                                 clearTimeout(timeout);
@@ -1222,18 +1236,6 @@ _Ingin melakukan topup? ketik *${prefix}order KODE,TUJUAN*_
                             }
                         }, 5000);
 
-                        const timeout = setTimeout(async () => {
-                            clearInterval(interval);
-                            const response = await axios.post(`${config.api.base_url}/api/h2h/deposit/cancel`, {
-                                id: id,
-                                api_key: config.api.secret_key
-                            });
-
-                            const data = response.data;
-
-                            if (!data.data) return msg.reply(data.message);
-                            msg.reply(`⚠️ *Pembayaran Dibatalkan Otomatis* setelah 5 menit tanpa konfirmasi keberhasilan.`);
-                        }, 300000);
                     }
                 } catch (error) {
                     console.error('Error fetching data:', error);
