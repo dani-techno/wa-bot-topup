@@ -1,0 +1,34 @@
+SYARAT-SYARAT PENGGUNAAN PROYEK BOT WA
+
+Proyek bot WA ini dilindungi oleh lisensi ISC License. Semua kode sumber, desain, dan konten yang terkait dengan proyek ini adalah hak cipta dari Dani Ramdani.
+
+PENGUNAAN DAN PENYEBARAN
+
+Anda diperbolehkan menggunakan, menyalin, memodifikasi, dan/atau mendistribusikan perangkat lunak ini untuk tujuan apa pun dengan atau tanpa biaya, dengan syarat bahwa notis hak cipta dan izin ini muncul di semua salinan.
+
+KONSEKUENSI PELANGGARAN
+
+Jika Anda melanggar syarat-syarat lisensi ini, maka Anda dapat menghadapi konsekuensi hukum berikut:
+
+- Ganti rugi atas pelanggaran hak cipta sebesar Rp 1.000.000.000 (satu miliar rupiah) atau lebih, sesuai dengan ketentuan Pasal 113 Undang-Undang Hak Cipta No. 28 Tahun 2014.
+- Penghentian penggunaan proyek ini dan semua derivatifnya, sesuai dengan ketentuan Pasal 114 Undang-Undang Hak Cipta No. 28 Tahun 2014.
+- Tindakan hukum lainnya yang sesuai, termasuk tuntutan pidana dan perdata, sesuai dengan ketentuan Pasal 115 Undang-Undang Hak Cipta No. 28 Tahun 2014.
+
+PASAL-PASAL YANG RELEVAN
+
+- Pasal 113 Undang-Undang Hak Cipta No. 28 Tahun 2014 tentang ganti rugi atas pelanggaran hak cipta.
+- Pasal 114 Undang-Undang Hak Cipta No. 28 Tahun 2014 tentang penghentian penggunaan proyek yang melanggar hak cipta.
+- Pasal 115 Undang-Undang Hak Cipta No. 28 Tahun 2014 tentang tindakan hukum lainnya yang sesuai.
+
+DENGAN MENGGUNAKAN PROYEK INI, ANDA MENYATAKAN BAHWA ANDA TELAH MEMBACA, MEMAHAMI, DAN MENYETUJUI SYARAT-SYARAT LISENSI INI.
+
+KONTAK
+
+Jika Anda memiliki pertanyaan atau kekhawatiran tentang lisensi ini, silakan hubungi Dani Ramdani di dani.technology.id@gmail.com
+
+TERIMA KASIH
+
+Terima kasih atas perhatian Anda.
+
+Dani Ramdani (Dani Technology)
+Full Stack Developer & Software Engineer
