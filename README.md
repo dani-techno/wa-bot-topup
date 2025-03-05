@@ -1,4 +1,4 @@
-## WhatsApp Bot Topup Otomatis - Baileys & Forest API
+## WhatsApp Bot Topup Otomatis - Baileys & ForestAPI
 
 ## Fitur
 1. Game Populer (ML, FF, dll.)
@@ -117,5 +117,5 @@ nodemon run start
 
 ## Terimakasih Kepada
 * Dani Technology - Full Stack Engineer (Pembuat / Pengembang)
-* Forest API | <a href="https://forestapi.web.id">www.forestapi.web.id</a> (Penyedia API)
+* ForestAPI | <a href="https://forestapi.web.id">www.forestapi.web.id</a> (Penyedia API Topup)
 * @whiskeysockets/baileys (Penyedia Library "Baileys")
