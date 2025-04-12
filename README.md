@@ -1,0 +1,2 @@
+Mohon maaf, repository/proyek ini sudah tidak tersedia karena mengalami kerusakan. Saat ini, saya memutuskan untuk menjual proyek tersebut. Sebelumnya, saat dibagikan secara gratis, proyek ini disalahgunakan dan diperjualbelikan oleh pihak-pihak yang tidak bertanggung jawab.
+Bagi Anda yang berminat untuk membeli script bot WhatsApp top-up dengan harga terjangkau, silakan hubungi saya melalui WhatsApp di nomor 0838 3499 4479 atau 0823 2066 7363.
